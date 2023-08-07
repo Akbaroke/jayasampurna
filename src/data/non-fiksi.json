@@ -8,61 +8,61 @@
           "id": 1,
           "judul": "kamus bahasa inggris",
           "url": "https://books.google.co.id/books?id=rrtqCgAAQBAJ&pg=PA685&dq=Kamus+inggris&hl=id&newbks=1&newbks_redir=0&source=gb_mobile_search&ovdme=1&sa=X&ved=2ahUKEwiRnt6el76AAxVhwTgGHdFNC5YQ6wF6BAgOEAU#v=onepage&q=Kamus%20inggris&f=false",
-          "imgUrl": "../public/buku/non-fiksi/kamus/1.jpg"
+          "imgUrl": "./non-fiksi/kamus/1.jpg"
         },
         {
           "id": 2,
           "judul": "kamus bahasa indonesia",
           "url": "https://books.google.co.id/books?id=nlJBDwAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
-          "imgUrl": "../public/buku/non-fiksi/kamus/2.jpg"
+          "imgUrl": "./non-fiksi/kamus/2.jpg"
         },
         {
           "id": 3,
           "judul": "kamus bahasa sunda",
           "url": "https://books.google.co.id/books?id=UiWyDwAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
-          "imgUrl": "../public/buku/non-fiksi/kamus/3.jpg"
+          "imgUrl": "./non-fiksi/kamus/3.jpg"
         },
         {
           "id": 4,
           "judul": "kamus bahasa jepang",
           "url": "https://books.google.co.id/books?id=LtRCDwAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
-          "imgUrl": "../public/buku/non-fiksi/kamus/4.jpg"
+          "imgUrl": "./non-fiksi/kamus/4.jpg"
         },
         {
           "id": 5,
           "judul": "kamus bahasa jerman",
           "url": "https://books.google.co.id/books?id=5Cb1DwAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
-          "imgUrl": "../public/buku/non-fiksi/kamus/5.jpg"
+          "imgUrl": "./non-fiksi/kamus/5.jpg"
         },
         {
           "id": 6,
           "judul": "kamus bahasa korea",
           "url": "https://books.google.co.id/books?id=MT89DwAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
-          "imgUrl": "../public/buku/non-fiksi/kamus/6.jpg"
+          "imgUrl": "./non-fiksi/kamus/6.jpg"
         },
         {
           "id": 7,
           "judul": "kamus bahasa belanda",
           "url": "https://books.google.co.id/books?id=-24_EAAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
-          "imgUrl": "../public/buku/non-fiksi/kamus/7.jpg"
+          "imgUrl": "./non-fiksi/kamus/7.jpg"
         },
         {
           "id": 8,
           "judul": "kamus bahasa spanyol",
           "url": "https://books.google.co.id/books?id=5Q5SDwAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
-          "imgUrl": "../public/buku/non-fiksi/kamus/8.jpg"
+          "imgUrl": "./non-fiksi/kamus/8.jpg"
         },
         {
           "id": 9,
           "judul": "kamus bahasa arab",
           "url": "https://books.google.co.id/books?id=ITCyDwAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
-          "imgUrl": "../public/buku/non-fiksi/kamus/9.jpg"
+          "imgUrl": "./non-fiksi/kamus/9.jpg"
         },
         {
           "id": 10,
           "judul": "kamus bahasa cina",
           "url": "https://books.google.co.id/books?id=vwNGEAAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
-          "imgUrl": "../public/buku/non-fiksi/kamus/10.jpg"
+          "imgUrl": "./non-fiksi/kamus/10.jpg"
         }
       ]
     },
@@ -76,43 +76,43 @@
               "id": 1,
               "judul": "Bermain Berbasis Buku",
               "url": "https://buku.kemdikbud.go.id/katalog/buku-panduan-guru-belajar-dan-bermain-berbasis-buku-untuk-satuan-paud",
-              "imgUrl": "../public/buku/non-fiksi/pendidikan/PAUD-TK/1.png"
+              "imgUrl": "./non-fiksi/pendidikan/paud-tk/1.png"
             },
             {
               "id": 2,
               "judul": "Jati Diri",
               "url": "https://buku.kemdikbud.go.id/katalog/buku-panduang-guru-capaian-pembelajaran-elemen-jati-diri",
-              "imgUrl": "../public/buku/non-fiksi/pendidikan/PAUD-TK/2.png"
+              "imgUrl": "./non-fiksi/pendidikan/paud-tk/2.png"
             },
             {
               "id": 3,
               "judul": "Dasar-dasar Literasi",
               "url": "https://buku.kemdikbud.go.id/katalog/buku-panduan-guru-capaian-pembelajaran-elemen-dasardasar-literasi-steam",
-              "imgUrl": "../public/buku/non-fiksi/pendidikan/PAUD-TK/3.png"
+              "imgUrl": "./non-fiksi/pendidikan/paud-tk/3.png"
             },
             {
               "id": 4,
               "judul": "Pengembangan Pembelajaran",
               "url": "https://buku.kemdikbud.go.id/katalog/buku-panduan-guru-pengembangan-pembelajaran",
-              "imgUrl": "../public/buku/non-fiksi/pendidikan/PAUD-TK/4.png"
+              "imgUrl": "./non-fiksi/pendidikan/paud-tk/4.png"
             },
             {
               "id": 5,
               "judul": "Profil Pelajar Pancasila",
               "url": "https://buku.kemdikbud.go.id/katalog/buku-panduan-guru-projek-penguatan-profil-pelajar-pancasila",
-              "imgUrl": "../public/buku/non-fiksi/pendidikan/PAUD-TK/5.png"
+              "imgUrl": "./non-fiksi/pendidikan/paud-tk/5.png"
             },
             {
               "id": 6,
               "judul": "Nilai Agama dan Budi Pekerti",
               "url": "https://buku.kemdikbud.go.id/katalog/nilai-agama-dan-budi-pekerti",
-              "imgUrl": "../public/buku/non-fiksi/pendidikan/PAUD-TK/6.png"
+              "imgUrl": "./non-fiksi/pendidikan/paud-tk/6.png"
             },
             {
               "id": 7,
               "judul": "Panduan Guru Paud",
               "url": "https://buku.kemdikbud.go.id/katalog/suplemen-buku-panduan-guru-paud-lembar-koreksi",
-              "imgUrl": "../public/buku/non-fiksi/pendidikan/PAUD-TK/7.png"
+              "imgUrl": "./non-fiksi/pendidikan/paud-tk/7.png"
             }
           ]
         },
@@ -126,37 +126,37 @@
                   "id": 1,
                   "judul": "Pendidikan Agama Islam",
                   "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-agama-islam-dan-budi-pekerti-untuk-sd-kelas-i",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/1/1.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/1/1.png"
                 },
                 {
                   "id": 2,
                   "judul": "Bahasa Indonesia",
                   "url": "https://buku.kemdikbud.go.id/katalog/bahasa-indonesia-untuk-sd-kelas-i",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/1/2.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/1/2.png"
                 },
                 {
                   "id": 3,
                   "judul": "Bahasa Inggris",
                   "url": "https://buku.kemdikbud.go.id/katalog/students-book-my-next-words-grade-1",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/1/3.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/1/3.png"
                 },
                 {
                   "id": 4,
                   "judul": "Pendidikan Kepercayaan Terhadap Tuhan Yang Maha Esa dan Budi Pekerti",
                   "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-kepercayaan-terhadap-tuhan-yang-maha-esa-dan-budi-pekerti-untuk-sd-kelas-i",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/1/4.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/1/4.png"
                 },
                 {
                   "id": 5,
                   "judul": "Matematika 1",
                   "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-sd-kelas-i",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/1/5.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/1/5.png"
                 },
                 {
                   "id": 6,
                   "judul": "Matematika 2",
                   "url": "https://buku.kemdikbud.go.id/katalog/Matematika-untuk-SDMI-Kelas-I",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/1/6.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/1/6.png"
                 }
               ]
             },
@@ -167,43 +167,43 @@
                   "id": 1,
                   "judul": "Bahasa Indonesia",
                   "url": "https://buku.kemdikbud.go.id/katalog/bahasa-indonesia-untuk-sd-kelas-ii",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/2/1.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/2/1.png"
                 },
                 {
                   "id": 2,
                   "judul": "Bahasa Inggris",
                   "url": "https://buku.kemdikbud.go.id/katalog/student's-book-my-next-words-grade-2",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/2/2.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/2/2.png"
                 },
                 {
                   "id": 3,
                   "judul": "Matematika",
                   "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-sdmi-kelas-ii",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/2/3.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/2/3.png"
                 },
                 {
                   "id": 4,
                   "judul": "Matematika 1",
                   "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-sd-kelas-ii-vol-1",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/2/4.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/2/4.png"
                 },
                 {
                   "id": 5,
                   "judul": "Matematika 2",
                   "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-sd-kelas-ii-vol-2",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/2/5.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/2/5.png"
                 },
                 {
                   "id": 6,
                   "judul": "Pendidikan Agama Islam",
                   "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-agama-islam-dan-budi-pekerti-untuk-sd-kelas-ii",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/2/6.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/2/6.png"
                 },
                 {
                   "id": 7,
                   "judul": "Pendidikan Kepercayaan Terhadap Tuhan Yang Maha Esa dan Budi Pekerti",
                   "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-kepercayaan-terhadap-tuhan-yang-maha-esa-dan-budi-pekerti-untuk-sd-kelas-ii",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/2/7.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/2/7.png"
                 }
               ]
             },
@@ -214,49 +214,49 @@
                   "id": 1,
                   "judul": "Bahasa Indonesia - Kawan Seiring",
                   "url": "https://buku.kemdikbud.go.id/katalog/bahasa-indonesia-kawan-seiring-untuk-sdmi-kelas-iii",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/3/1.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/3/1.png"
                 },
                 {
                   "id": 2,
                   "judul": "Ilmu Pengetahuan Alam dan Sosial",
                   "url": "https://buku.kemdikbud.go.id/katalog/ilmu-pengetahuan-alam-dan-sosial-untuk-sdmi-kelas-iii",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/3/2.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/3/2.png"
                 },
                 {
                   "id": 3,
                   "judul": "Matematika",
                   "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-sdmi-kelas-iii",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/3/3.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/3/3.png"
                 },
                 {
                   "id": 4,
                   "judul": "Pendidikan Agama Islam",
                   "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-agama-islam-dan-budi-pekerti-untuk-sdmi-kelas-iii",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/3/4.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/3/4.png"
                 },
                 {
                   "id": 5,
                   "judul": "Matematika 1",
                   "url": "https://buku.kemdikbud.go.id/katalog/belajar-bersama-temanmu-matematika-untuk-sekolah-dasar-kelas-iii-%E2%80%93-volume-1",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/3/5.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/3/5.png"
                 },
                 {
                   "id": 6,
                   "judul": "Pendidikan Kepercayaan Terhadap Tuhan Yang Maha Esa dan Budi Pekerti",
                   "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-kepercayaan-terhadap-tuhan-yang-maha-esa-dan-budi-pekerti-untuk-sd-kelas-iii",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/3/6.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/3/6.png"
                 },
                 {
                   "id": 7,
                   "judul": "Matematika 2",
                   "url": "https://buku.kemdikbud.go.id/katalog/belajar-bersama-temanmu-matematika-untuk-sekolah-dasar-kelas-iii-%E2%80%93-volume-2",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/3/7.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/3/7.png"
                 },
                 {
                   "id": 8,
                   "judul": "Bahasa Inggris",
                   "url": "https://buku.kemdikbud.go.id/katalog/my-next-words-grade-3-%E2%80%93-student%E2%80%99s-book-for-elementary-school",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/3/8.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/3/8.png"
                 }
               ]
             },
@@ -267,49 +267,49 @@
                   "id": 1,
                   "judul": "Pendidikan Agama Islam",
                   "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-agama-islam-dan-budi-pekerti-untuk-sd-kelas-iv",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/4/1.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/4/1.png"
                 },
                 {
                   "id": 2,
                   "judul": "Bahasa Indonesia",
                   "url": "https://buku.kemdikbud.go.id/katalog/bahasa-indonesia-untuk-sd-kelas-iv",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/4/2.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/4/2.png"
                 },
                 {
                   "id": 3,
                   "judul": "Bahasa Inggris",
                   "url": "https://buku.kemdikbud.go.id/katalog/students-book-my-next-words-grade-4",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/4/3.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/4/3.png"
                 },
                 {
                   "id": 4,
                   "judul": "Ilmu Pengetahuan Alam dan Sosial",
                   "url": "https://buku.kemdikbud.go.id/katalog/ilmu-pengetahuan-alam-dan-sosial-untuk-sd-kelas-iv",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/4/4.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/4/4.png"
                 },
                 {
                   "id": 5,
                   "judul": "Pendidikan Kepercayaan Terhadap Tuhan Yang Maha Esa dan Budi Pekerti",
                   "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-kepercayaan-terhadap-tuhan-yang-maha-esa-dan-budi-pekerti-untuk-sd-kelas-iv",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/4/5.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/4/5.png"
                 },
                 {
                   "id": 6,
                   "judul": "Matematika 1",
                   "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-sd-kelas-iv-vol-1",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/4/6.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/4/6.png"
                 },
                 {
                   "id": 7,
                   "judul": "Matematika 2",
                   "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-sd-kelas-iv-vol-2",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/4/7.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/4/7.png"
                 },
                 {
                   "id": 8,
                   "judul": "Matematika 3",
                   "url": "https://buku.kemdikbud.go.id/katalog/Matematika-untuk-SDMI-Kelas-IV",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/4/8.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/4/8.png"
                 }
               ]
             },
@@ -320,49 +320,49 @@
                   "id": 1,
                   "judul": "Bahasa Indonesia",
                   "url": "https://buku.kemdikbud.go.id/katalog/bahasa-indonesia-untuk-sd-kelas-v",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/5/1.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/5/1.png"
                 },
                 {
                   "id": 2,
                   "judul": "Bahasa Inggris",
                   "url": "https://buku.kemdikbud.go.id/katalog/student's-book-my-next-words-grade-5",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/5/2.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/5/2.png"
                 },
                 {
                   "id": 3,
                   "judul": "Matematika 1",
                   "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-sd-kelas-v-vol-1",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/5/3.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/5/3.png"
                 },
                 {
                   "id": 4,
                   "judul": "Matematika 2",
                   "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-sd-kelas-v-vol-2",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/5/4.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/5/4.png"
                 },
                 {
                   "id": 5,
                   "judul": "Pendidikan Agama Islam",
                   "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-agama-islam-dan-budi-pekerti-untuk-sd-kelas-v",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/5/5.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/5/5.png"
                 },
                 {
                   "id": 6,
                   "judul": "Pendidikan Kepercayaan Terhadap Tuhan Yang Maha Esa dan Budi Pekerti",
                   "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-kepercayaan-terhadap-tuhan-yang-maha-esa-dan-budi-pekerti-untuk-sd-kelas-v",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/5/6.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/5/6.png"
                 },
                 {
                   "id": 7,
                   "judul": "Ilmu Pengetahuan Alam dan Sosial",
                   "url": "https://buku.kemdikbud.go.id/katalog/ilmu-pengetahuan-alam-dan-sosial-untuk-sd-kelas-v",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/5/7.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/5/7.png"
                 },
                 {
                   "id": 8,
                   "judul": "Matematika",
                   "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-sdmi-kelas-v",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/5/8.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/5/8.png"
                 }
               ]
             },
@@ -373,49 +373,49 @@
                   "id": 1,
                   "judul": "Ilmu Pengetahuan Alam dan Sosial",
                   "url": "https://buku.kemdikbud.go.id/katalog/ilmu-pengetahuan-alam-dan-sosial-untuk-sdmi-kelas-vi",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/6/1.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/6/1.png"
                 },
                 {
                   "id": 2,
                   "judul": "Pendidikan Kepercayaan Terhadap Tuhan Yang Maha Esa dan Budi Pekerti",
                   "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-kepercayaan-terhadap-tuhan-yang-maha-esa-dan-budi-pekerti-untuk-sd-kelas-vi",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/6/2.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/6/2.png"
                 },
                 {
                   "id": 3,
                   "judul": "Bahasa Indonesia",
                   "url": "https://buku.kemdikbud.go.id/katalog/bahasa-indonesia-anak-anak-yang-mengubah-dunia-untuk-sdmi-kelas-vi",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/6/3.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/6/3.png"
                 },
                 {
                   "id": 4,
                   "judul": "Pendidikan Agama Islam",
                   "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-agama-islam-dan-budi-pekerti-untuk-sdmi-kelas-vi",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/6/4.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/6/4.png"
                 },
                 {
                   "id": 5,
                   "judul": "Matematika",
                   "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-sdmi-kelas-vi",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/6/5.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/6/5.png"
                 },
                 {
                   "id": 6,
                   "judul": "Bahasa Inggris",
                   "url": "https://buku.kemdikbud.go.id/katalog/my-next-words-grade-6-%E2%80%93-student%E2%80%99s-book-for-elementary-school",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/6/6.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/6/6.png"
                 },
                 {
                   "id": 7,
                   "judul": "Matematika 2",
                   "url": "https://buku.kemdikbud.go.id/katalog/belajar-bersama-temanmu-matematika-untuk-sekolah-dasar-kelas-vi-%E2%80%93-volume-2",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/6/7.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/6/7.png"
                 },
                 {
                   "id": 8,
                   "judul": "Matematika 1",
                   "url": "https://buku.kemdikbud.go.id/katalog/belajar-bersama-temanmu-matematika-untuk-sekolah-dasar-kelas-vi-%E2%80%93-volume-1",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/SD/6/8.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sd/6/8.png"
                 }
               ]
             }
@@ -429,117 +429,51 @@
               "list": [
                 {
                   "id": 1,
-                  "judul": "Seni Teater",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/Seni-Teater-BG-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/1.webp"
+                  "judul": "Pendidikan Agama Islam Dan Budi Pekerti",
+                  "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-agama-islam-dan-budi-pekerti-untuk-smp-kelas-vii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/7/1.png"
                 },
                 {
                   "id": 2,
-                  "judul": "Seni Musik",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/Seni-Musik-BG-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/2.webp"
+                  "judul": "Bahasa Indonesia",
+                  "url": "https://buku.kemdikbud.go.id/katalog/bahasa-indonesia-untuk-smp-kelas-vii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/7/2.png"
                 },
                 {
                   "id": 3,
-                  "judul": "Seni Rupa",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/Seni-Rupa-BG-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/3.webp"
+                  "judul": "Ilmu Pengetahuan Alam",
+                  "url": "https://buku.kemdikbud.go.id/katalog/ilmu-pengetahuan-alam-untuk-smp-kelas-vii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/7/3.png"
                 },
                 {
                   "id": 4,
-                  "judul": "PKN",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/PPKN-BS-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/4.webp"
+                  "judul": "Ilmu Pengetahuan Sosial",
+                  "url": "https://buku.kemdikbud.go.id/katalog/ilmu-pengetahuan-sosial-untuk-smp-kelas-vii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/7/4.png"
                 },
                 {
                   "id": 5,
-                  "judul": "MTK",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/Matematika-BS-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/5.webp"
+                  "judul": "Informatika",
+                  "url": "https://buku.kemdikbud.go.id/katalog/informatika-untuk-smp-kelas-vii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/7/5.png"
                 },
                 {
                   "id": 6,
-                  "judul": "Pendidikan Kepercayaan Terhadap Tuhan YME dan Budi Pekerti",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/Kepercayaan-BS-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/6.webp"
+                  "judul": "Matematika",
+                  "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-smp-kelas-vii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/7/6.png"
                 },
                 {
                   "id": 7,
-                  "judul": "Informatika",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/Informatika-BS-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/7.webp"
+                  "judul": "Bahasa Inggris",
+                  "url": "https://buku.kemdikbud.go.id/katalog/English-for-Nusantara-untuk-SMPMTs-Kelas-VII",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/7/7.png"
                 },
                 {
                   "id": 8,
-                  "judul": "IPS",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/IPS-BS-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/8.webp"
-                },
-                {
-                  "id": 9,
-                  "judul": "IPA 2021",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/IPA-BS-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/9.webp"
-                },
-                {
-                  "id": 10,
-                  "judul": "IPA 2008",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas7/Kelas7_Ilmu_Pengetahuan_Alam_VII_177.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/10.webp"
-                },
-                {
-                  "id": 11,
-                  "judul": "TIK",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas7/Kelas7_Teknologi_Informasi_dan_Komunikasi_1061.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/11.webp"
-                },
-                {
-                  "id": 12,
-                  "judul": "Bahasa Indonesia",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/Bahasa-Indonesia-BS-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/12.webp"
-                },
-                {
-                  "id": 13,
-                  "judul": "Pendidikan Agama Kristen dan Budi Pekerti",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/Kristen-BS-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/13.webp"
-                },
-                {
-                  "id": 14,
-                  "judul": "Pendidikan Agama Islam dan Budi Pekerti",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/Islam-BS-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/14.webp"
-                },
-                {
-                  "id": 15,
-                  "judul": "Pendidikan Agama Hindu dan Budi Pekerti",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/Hindu-BS-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/15.webp"
-                },
-                {
-                  "id": 16,
-                  "judul": "Buku Seni Budaya",
-                  "url": "file:///C:/Users/Laila%20Afinka/Downloads/New%20folder/Kelas7_buku_siswa_seni_budaya_smp_mts_kelas_vii_1953.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/16.webp"
-                },
-                {
-                  "id": 17,
-                  "judul": "Buku Bahasa Inggris When English Rings a Bell",
-                  "url": "file:///C:/Users/Laila%20Afinka/Downloads/New%20folder/Kelas7_bahasa_inggris_buku_siswa_smp_mts_kelas_vii_1783.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/17.webp"
-                },
-                {
-                  "id": 18,
-                  "judul": "Buku Jasmani, Olahraga, dan Kesehatan",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/PJOK-BG-KLS-VII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/18.webp"
-                },
-                {
-                  "id": 19,
-                  "judul": "Buku Prakarya",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas7/Kelas7_prakarya_buku_siswa_1649.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/7/19.webp"
+                  "judul": "Pendidikan Kewarganegaraan",
+                  "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-pancasila-dan-kewarganegaraan-untuk-smp-kelas-vii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/7/8.png"
                 }
               ]
             },
@@ -548,69 +482,51 @@
               "list": [
                 {
                   "id": 1,
-                  "judul": "Pendidikan Agama Islam",
-                  "url": "file:///C:/Users/Laila%20Afinka/Downloads/New%20folder/Kelas7_bahasa_inggris_buku_siswa_smp_mts_kelas_vii_1783.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/8/1.webp"
+                  "judul": "Pendidikan Agama Islam dan Budi Pekerti",
+                  "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-agama-islam-dan-budi-pekerti-untuk-smp-kelas-vii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/8/1.png"
                 },
                 {
                   "id": 2,
-                  "judul": "Buku Pendidikan Pancasila dan Kewarganegaraan",
-                  "url": "file:///C:/Users/Laila%20Afinka/Downloads/New%20folder/KELAS%20VIII/Kelas1_ppkn_bs_smp_mts_kelas_viii_1881.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/8/2.webp"
+                  "judul": "Bahasa Indonesia",
+                  "url": "https://buku.kemdikbud.go.id/katalog/bahasa-indonesia-untuk-smp-kelas-viii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/8/2.png"
                 },
                 {
                   "id": 3,
-                  "judul": "Buku Bahasa Indonesia",
-                  "url": "file:///C:/Users/Laila%20Afinka/Downloads/New%20folder/KELAS%20VIII/Kelas8_bahasa_indonesia_buku_siswa_smp_mts_kelas_viii_1956.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/8/3.webp"
+                  "judul": "Ilmu Pengetahuan Sosial",
+                  "url": "https://buku.kemdikbud.go.id/katalog/ilmu-pengetahuan-sosial-untuk-smp-kelas-viii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/8/3.png"
                 },
                 {
                   "id": 4,
-                  "judul": "Buku Matematika",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas8/Kelas8_Mudah_Belajar_Matematika_kelas_VIII_21.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/8/4.webp"
+                  "judul": "Informatika",
+                  "url": "https://buku.kemdikbud.go.id/katalog/informatika-untuk-smp-kelas-viii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/8/4.png"
                 },
                 {
                   "id": 5,
-                  "judul": "Buku Ilmu Pengetahuan Alam",
-                  "url": "file:///C:/Users/Laila%20Afinka/Downloads/New%20folder/KELAS%20VIII/Kelas8_ipa_buku_siswa_semester_1_kelas_8_1908.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/8/5.webp"
+                  "judul": "Ilmu Pengetahuan Alam",
+                  "url": "https://buku.kemdikbud.go.id/katalog/ilmu-pengetahuan-alam-untuk-smp-kelas-viii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/8/5.png"
                 },
                 {
                   "id": 6,
-                  "judul": "Buku Ilmu Pengetahuan Sosial",
-                  "url": "file:///C:/Users/Laila%20Afinka/Downloads/New%20folder/KELAS%20VIII/Kelas1_ilmu_pengetahuan_sosial_ips_buku_siswa_smp_mt_s_kelas_viii_1964.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/8/6.webp"
+                  "judul": "Matematika",
+                  "url": "https://buku.kemdikbud.go.id/katalog/matematika-untuk-smp-kelas-viii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/8/6.png"
                 },
                 {
                   "id": 7,
-                  "judul": "Buku Bahasa Inggris",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas8/Kelas8_bahasa_inggris_when_english_rings_a_bell_buku_siswa_1694.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/8/7.webp"
+                  "judul": "Pendidikan Kewarganegaraan",
+                  "url": "https://buku.kemdikbud.go.id/katalog/pendidikan-pancasila-dan-kewarganegaraan-untuk-smp-kelas-viii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/8/7.png"
                 },
                 {
                   "id": 8,
-                  "judul": "Buku Seni Budaya",
-                  "url": "file:///C:/Users/Laila%20Afinka/Downloads/New%20folder/KELAS%20VIII/Kelas7_buku_guru_seni_budaya_smp_mts_kelas_vii_1801.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/8/8.webp"
-                },
-                {
-                  "id": 9,
-                  "judul": "Pendidikan Jasmani, Olahraga & Kesehatan",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/PJOK-BG-KLS-VIII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/8/9.webp"
-                },
-                {
-                  "id": 10,
-                  "judul": "Prakarya",
-                  "url": "file:///C:/Users/Laila%20Afinka/Downloads/New%20folder/KELAS%20VIII/Kelas1_prakarya_smp_mts_kelas_viii_semester_1_2043.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/8/10.webp"
-                },
-                {
-                  "id": 11,
-                  "judul": "Informatika",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/kurikulum21/Informatika-BS-KLS-VIII.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/8/11.webp"
+                  "judul": "Bahasa Inggris",
+                  "url": "https://buku.kemdikbud.go.id/katalog/english-for-nusantara-untuk-smpmts-kelas-viii",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/8/8.png"
                 }
               ]
             },
@@ -619,69 +535,57 @@
               "list": [
                 {
                   "id": 1,
-                  "judul": "Bahasa Indonesia",
-                  "url": "file:///C:/Users/Laila%20Afinka/Downloads/New%20folder/KELAS%20IX/Kelas9_buku_guru_bahasa_indonesia_kelas_ix_2119.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/9/1.webp"
+                  "judul": "Bupelas Matematika",
+                  "url": "https://books.google.co.id/books?id=PfPwDwAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/9/1.png"
                 },
                 {
                   "id": 2,
-                  "judul": "Bahasa Inggris",
-                  "url": "https://annibuku.com/bse/buku-guru-bahasa-inggris-kelas-ix-2141",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/9/2.webp"
+                  "judul": "Seri IPA Biologi",
+                  "url": "https://books.google.co.id/books?id=PNZ5Yu4v42AC&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/9/2.jpg"
                 },
                 {
                   "id": 3,
-                  "judul": "PPKN",
-                  "url": "file:///C:/Users/Laila%20Afinka/Downloads/New%20folder/KELAS%20IX/Kelas1_buku_siswa_ppkn_kelas_ix_2175.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/9/3.webp"
+                  "judul": "Matematika",
+                  "url": "https://books.google.co.id/books?id=haRgEAAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/9/3.jpg"
                 },
                 {
                   "id": 4,
-                  "judul": "Buku Penjasorkes",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas9/Kelas9_Penjasorkes_IX_1223.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/9/4.webp"
+                  "judul": "Bahasa Inggris",
+                  "url": "https://books.google.co.id/books?id=haRgEAAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/9/4.jpg"
                 },
                 {
                   "id": 5,
-                  "judul": "Pendidikan Agama Islam",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas9/Kelas9_Pendidikan_Agama_Islam_1213.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/9/5.webp"
+                  "judul": "Ilmu Pengetahuan Alam",
+                  "url": "https://books.google.co.id/books?id=s_tFDwAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/9/5.png"
                 },
                 {
                   "id": 6,
-                  "judul": "Teknologi Informasi dan Komunikasi",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas9/Kelas9_Teknologi_Informasi_dan_Komunikasi_1212.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/9/6.webp"
+                  "judul": "Fisika",
+                  "url": "https://books.google.co.id/books?id=_sbFfq_4Ae8C&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/9/6.jpg"
                 },
                 {
                   "id": 7,
-                  "judul": "Matematika",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas9/Kelas9_Mudah_Belajar_Matematika_kelas_IX_19.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/9/7.webp"
+                  "judul": "Ilmu Pengetahuan Sosial",
+                  "url": "https://books.google.co.id/books?id=YmOIewkhJZsC&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/9/7.jpg"
                 },
                 {
                   "id": 8,
-                  "judul": "Seni Budaya",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas1/Kelas1_buku_guru_seni_budaya_kelas_ix_2146.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/9/8.webp"
+                  "judul": "Bahasa Indonesia",
+                  "url": "https://books.google.co.id/books?id=y5_6DwAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/9/8.jpg"
                 },
                 {
                   "id": 9,
-                  "judul": "Prakarya",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas1/Kelas1_buku_guru_prakarya_kelas_ix_2145.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/9/9.webp"
-                },
-                {
-                  "id": 10,
-                  "judul": "Ilmu Pengetahuan Sosial",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas9/Kelas9_Ilmu_Pengetahuan_Sosial_untuk_SMP_MTs_67.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/9/10.webp"
-                },
-                {
-                  "id": 11,
-                  "judul": "Ilmu Pengetahuan Alam",
-                  "url": "https://docs.google.com/viewerng/viewer?url=https://assets.annibuku.com/bse/Kelas9/Kelas9_Ilmu_Pengetahuan_Alam_682.pdf",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/smp/9/11.webp"
+                  "judul": "Seni Budaya",
+                  "url": "https://books.google.co.id/books?id=h6RgEAAAQBAJ&printsec=frontcover&hl=id&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
+                  "imgUrl": "./non-fiksi/pendidikan/smp/9/9.jpg"
                 }
               ]
             }
@@ -697,109 +601,109 @@
                   "id": 1,
                   "judul": "SOSIOLOGI KLS X",
                   "url": "https://annibuku.com/bse/buku-sosiologi-1-menyelami-fenomena-sosial-di-masyarakat-kelas-10-sma-826",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/1.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/1.jpg"
                 },
                 {
                   "id": 2,
                   "judul": "GEOGRAFI KLS X",
                   "url": "https://annibuku.com/bse/buku-geografi-kelas-10-sma-833",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/2.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/2.jpg"
                 },
                 {
                   "id": 3,
                   "judul": "BIOLOGI KLS X",
                   "url": "https://annibuku.com/bse/buku-praktis-belajar-biologi-kelas-10-sma-870",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/3.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/3.jpg"
                 },
                 {
                   "id": 4,
                   "judul": "FISIKA KLS X",
                   "url": "https://annibuku.com/bse/buku-praktis-belajar-fisika-1-kelas-10-sma-873",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/4.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/4.jpg"
                 },
                 {
                   "id": 5,
                   "judul": "KIMIA KLS X",
                   "url": "https://annibuku.com/bse/buku-praktis-belajar-kimia-kelas-10-sma-876",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/5.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/5.jpg"
                 },
                 {
                   "id": 6,
                   "judul": "TEKNOLOGI INFORMASI DAN KOMUNIKASI KLS X",
                   "url": "https://annibuku.com/bse/buku-teknologi-informasi-dan-komunikasi-kelas-10-sma-1001",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/6.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/6.jpg"
                 },
                 {
                   "id": 7,
                   "judul": "SENI BUDAYA KLS X",
                   "url": "https://annibuku.com/bse/buku-siswa-seni-budaya-smamasmkmak-kelas-x-semester-2-1854",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/7.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/7.jpg"
                 },
                 {
                   "id": 8,
                   "judul": "B. INGGRIS KLS X",
                   "url": "https://annibuku.com/bse/buku-siswa-bahasa-inggris-smamasmkmak-kelas-x-1955",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/8.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/8.jpg"
                 },
                 {
                   "id": 9,
                   "judul": "PEND. AGAMA ISLAM KLS X",
                   "url": "https://annibuku.com/bse/buku-siswa-pendidikan-agama-islam-dan-bp-smama-kelas-x-1959",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/9.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/9.jpg"
                 },
                 {
                   "id": 10,
                   "judul": "PRAKARYA KLS X",
                   "url": "https://annibuku.com/bse/prakarya-dan-kewirausahaan-buku-siswa-smamasmkmak-kelas-x-semester-2-1993",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/10.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/10.jpg"
                 },
                 {
                   "id": 11,
                   "judul": "CERDAS CERGAS KLS X",
                   "url": "https://annibuku.com/bse/bahasa-dan-bersastra-indonesia-untuk-sma-smk-kelas-x-2754",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/11.webp"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/11.webp"
                 },
                 {
                   "id": 12,
                   "judul": "IPA KLS X",
                   "url": "https://annibuku.com/bse/ilmu-pengetahuan-alam-untuk-sma-kelas-x-2756",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/12.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/12.png"
                 },
                 {
                   "id": 13,
                   "judul": "IPS KLS X",
                   "url": "https://annibuku.com/bse/ilmu-pengetahuan-sosial-untuk-sma-kelas-x-2758",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/13.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/13.png"
                 },
                 {
                   "id": 14,
                   "judul": "PEND. AGAMA KEPERCAYAAN KLS X",
                   "url": "https://annibuku.com/bse/pendidikan-agama-kepercayaan-dan-budi-pekerti-untuk-sma-smk-kelas-x-2762",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/14.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/14.png"
                 },
                 {
                   "id": 15,
                   "judul": "MTK KLS X",
                   "url": "https://annibuku.com/bse/matematika-buku-siswa-kelas-11-smasmk-2005",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/15.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/15.png"
                 },
                 {
                   "id": 16,
                   "judul": "PEND. B. INDONESIA KLS X",
                   "url": "https://annibuku.com/bse/bahasa-indonesia-buku-siswa-smamasmkmak-kelas-x-1884",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/16.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/16.png"
                 },
                 {
                   "id": 17,
                   "judul": "PPKN KLS X",
                   "url": "https://annibuku.com/bse/buku-siswa-ppkn-smamasmkmak-kelas-x-1997",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/17.webp"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/17.webp"
                 },
                 {
                   "id": 18,
                   "judul": "SEJARAH KLS X",
                   "url": "https://annibuku.com/bse/sejarah-untuk-smk-kelas-x-2773",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/10/18.webp"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/10/18.webp"
                 }
               ]
             },
@@ -810,109 +714,109 @@
                   "id": 1,
                   "judul": "TEKNOLOGI INFORMASI DAN KOMUNIKASI KLS XI",
                   "url": "https://annibuku.com/bse/buku-teknologi-informasi-dan-komunikasi-kelas-11-sma-1013",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/1.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/1.jpg"
                 },
                 {
                   "id": 2,
                   "judul": "AGAMA KRISTEN XI",
                   "url": "https://annibuku.com/bse/kristen-buku-siswa-kelas-11-smasmk-1795",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/2.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/2.jpg"
                 },
                 {
                   "id": 3,
                   "judul": "PRAKARYA KLS XI",
                   "url": "https://annibuku.com/bse/prakarya-dan-kewirausahaan-buku-siswa-smasmkmamak-kelas-xi-semester-2-1939",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/3.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/3.jpg"
                 },
                 {
                   "id": 4,
                   "judul": "B. INDONESIA KLS XII",
                   "url": "https://annibuku.com/bse/bahasa-indonesia-buku-siswa-smasmkmamk-kelas-xi-1948",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/4.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/4.jpg"
                 },
                 {
                   "id": 5,
                   "judul": "PEND. AGAMA ISLAM KLS XI",
                   "url": "https://annibuku.com/bse/islam-buku-siswa-kelas-11-smasmk-1966",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/5.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/5.jpg"
                 },
                 {
                   "id": 6,
                   "judul": "SEJARAH INDONESIA KLS XI",
                   "url": "https://annibuku.com/bse/sejarah-indonesia-buku-siswa-smamasmkmak-kelas-xi-semester-2-1970",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/6.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/6.jpg"
                 },
                 {
                   "id": 7,
                   "judul": "SENI BUDAYA KLS XI",
                   "url": "https://annibuku.com/bse/seni-budaya-buku-siswa-semester-1-kelas-11-smasmk-1981",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/7.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/7.jpg"
                 },
                 {
                   "id": 8,
                   "judul": "MTK KLS XI",
                   "url": "https://annibuku.com/bse/matematika-buku-siswa-kelas-11-smasmk-2005",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/8.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/8.jpg"
                 },
                 {
                   "id": 9,
                   "judul": "CERDAS CERGAS KLS XI",
                   "url": "https://annibuku.com/bse/cerdas-cergas-berbahasa-dan-bersastra-indonesia-untuk-sma-smk-kelas-xi-2864",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/9.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/9.png"
                 },
                 {
                   "id": 10,
                   "judul": "B.INGGRIS",
                   "url": "https://annibuku.com/bse/bahasa-inggris-tingkat-lanjut-untuk-sma-kelas-xi-2868",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/10.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/10.png"
                 },
                 {
                   "id": 11,
                   "judul": "EKONOMI KLS XI",
                   "url": "https://annibuku.com/bse/ekonomi-untuk-sma-kelas-xi-2876",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/11.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/11.png"
                 },
                 {
                   "id": 12,
                   "judul": "GEOGRAFI KLS XI",
                   "url": "https://annibuku.com/bse/geografi-untuk-sma-kelas-xi-2880",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/12.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/12.png"
                 },
                 {
                   "id": 13,
                   "judul": "INFORMATIKA KLS XI",
                   "url": "https://annibuku.com/bse/informatika-untuk-sma-kelas-xi-2878",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/13.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/13.png"
                 },
                 {
                   "id": 14,
                   "judul": "PEND.KEPERCAYAAN KLS XI",
                   "url": "https://annibuku.com/bse/pendidikan-kepercayaan-terhadap-tuhan-yang-maha-esa-dan-budi-pekerti-untuk-sma-smk-kelas-xi-2892",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/14.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/14.png"
                 },
                 {
                   "id": 15,
                   "judul": "PPKN KLS XI",
                   "url": "https://annibuku.com/bse/pendidikan-pancasila-dan-kewarganegaraan-untuk-sma-smk-kelas-xi-2882",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/15.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/15.png"
                 },
                 {
                   "id": 16,
                   "judul": "SEJARAH KLS XI",
                   "url": "https://annibuku.com/bse/sejarah-untuk-sma-smk-kelas-xi-2884",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/16.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/16.png"
                 },
                 {
                   "id": 17,
                   "judul": "SOSIOLOGI KLS XI",
                   "url": "https://annibuku.com/bse/sosiologi-untuk-sma-kelas-xi-2886",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/17.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/17.png"
                 },
                 {
                   "id": 18,
                   "judul": "Bahasa Indonesia",
                   "url": "https://annibuku.com/bse/bahasa-indonesia-tingkat- lanjut-cakap-berbahasa-dan-bersastra-indonesia-untuk-sma-kelas-xi-2866",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/11/18.png"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/11/18.png"
                 }
               ]
             },
@@ -923,43 +827,43 @@
                   "id": 1,
                   "judul": "B. INGGRIS XII",
                   "url": "https://annibuku.com/bse/buku-siswa-bahasa-inggris-kelas-12-2112",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/12/1.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/12/1.jpg"
                 },
                 {
                   "id": 2,
                   "judul": "B. SUNDA KLS XII",
                   "url": "https://bukusekolah.id/buku/buku-bahasa-sunda-kelas-12-sma/",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/12/2.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/12/2.jpg"
                 },
                 {
                   "id": 3,
                   "judul": "MTK KLS XII",
                   "url": "https://bukusekolah.id/buku/buku-matematika-kelas-12-sma/",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/12/3.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/12/3.jpg"
                 },
                 {
                   "id": 4,
                   "judul": "PEND. AGAMA ISLAM KLS XII",
                   "url": "https://bukusekolah.id/buku/buku-pendidikan-agama-islam-dan-budi-pekerti-kelas-12-sma/",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/12/4.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/12/4.jpg"
                 },
                 {
                   "id": 5,
                   "judul": "PPKN KLS XII",
                   "url": "https://bukusekolah.id/buku/buku-ppkn-kelas-12-sma/",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/12/5.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/12/5.jpg"
                 },
                 {
                   "id": 6,
                   "judul": "PRAKARYA KLS XII",
                   "url": "https://annibuku.com/bse/buku-siswa-prakarya-dan-kewirausahaan-kelas-xii-2116",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/12/6.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/12/6.jpg"
                 },
                 {
                   "id": 7,
                   "judul": "SENI BUDAYA KLS XII",
                   "url": "https://annibuku.com/bse/buku-siswa-seni-budaya-kelas-xii-semester-1-2118",
-                  "imgUrl": "../public/buku/non-fiksi/pendidikan/sma-smk/12/7.jpg"
+                  "imgUrl": "./non-fiksi/pendidikan/sma-smk/12/7.jpg"
                 }
               ]
             }
@@ -977,91 +881,91 @@
               "id": 1,
               "judul": "Bung Karno Panglima Revolusi",
               "url": "https://www.google.co.id/books/edition/Bung_Karno_panglima_revolusi/n7iKBAAAQBAJ?hl=en&gbpv=1",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/1.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/1.jpg"
             },
             {
               "id": 2,
               "judul": "Filsafat Pancasila Menurut Bung Karno",
               "url": "https://www.google.co.id/books/edition/Filsafat_Pancasila_Menurut_Bung_Karno/O3q4wbZqIDcC?hl=en&gbpv=1",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/2.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/2.jpg"
             },
             {
               "id": 3,
               "judul": "Biografi Singkat Mohammad Hatta",
               "url": "https://www.google.co.id/books/edition/Biografi_Singkat_Mohammad_Hatta/CZmxDwAAQBAJ?hl=en&gbpv=1",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/3.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/3.jpg"
             },
             {
               "id": 4,
               "judul": "Biografi Pahlawan Kusuma Bangsa",
               "url": "https://www.google.co.id/books/edition/Biografi_Pahlawan_Kusuma_Bangsa/ops2DwAAQBAJ?hl=en&gbpv=1&dq=biografi+pahlawan+indonesia&pg=PA75&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/4.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/4.jpg"
             },
             {
               "id": 5,
               "judul": "Biografi Tokoh Tokoh Dunia",
               "url": "https://www.google.co.id/books/edition/Biografi_Tokoh_Tokoh_Dunia/Q9HFDAAAQBAJ?hl=en&gbpv=1&dq=biografi+pahlawan&pg=PA78&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/5.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/5.jpg"
             },
             {
               "id": 6,
               "judul": "Gus Dur",
               "url": "https://www.google.co.id/books/edition/Gus_Dur/96k2HzQVnBoC?hl=en&gbpv=1&dq=biografi+pahlawan&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/6.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/6.jpg"
             },
             {
               "id": 7,
               "judul": "Pahlawan Pahlawan Indonesia Sepanjang Masa",
               "url": "https://www.google.co.id/books/edition/PAHLAWAN_PAHLAWAN_INDONESIA_SEPANJANG_MA/p216CgAAQBAJ?hl=en&gbpv=1&dq=biografi+pahlawan&pg=PA291&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/7.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/7.jpg"
             },
             {
               "id": 8,
               "judul": "Teuku Umar",
               "url": "https://www.google.co.id/books/edition/Teuku_Umar/HwSLCgAAQBAJ?hl=en&gbpv=1&dq=biografi+pahlawan&pg=PP4&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/8.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/8.jpg"
             },
             {
               "id": 9,
               "judul": "Biografi Tokoh Tokoh Idrisiyyah",
               "url": "https://www.google.co.id/books/edition/BIOGRAFI_TOKOH_TOKOH_IDRISIYYAH/PQZ0DwAAQBAJ?hl=en&gbpv=1&dq=biografi+tokoh+islam&pg=PA186&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/9.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/9.jpg"
             },
             {
               "id": 10,
               "judul": "Biografi Tokoh Ilmuwan Dunia",
               "url": "https://www.google.co.id/books/edition/Biografi_Tokoh_Ilmuwan_Dunia/_Hh5DQAAQBAJ?hl=en&gbpv=1&dq=biografi+tokoh+islam&pg=PA42&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/10.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/10.jpg"
             },
             {
               "id": 11,
               "judul": "Biografi Tokoh Sastra",
               "url": "https://www.google.co.id/books/edition/Biografi_Tokoh_Sastra/9L_EDAAAQBAJ?hl=en&gbpv=1&dq=biografi+tokoh+islam&pg=PA23&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/11.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/11.jpg"
             },
             {
               "id": 12,
               "judul": "Kartini Sebuah Biografi",
               "url": "https://www.google.co.id/books/edition/Kartini_Sebuah_Biografi/rtZOEAAAQBAJ?hl=en&gbpv=1",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/12.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/12.jpg"
             },
             {
               "id": 13,
               "judul": "Imam Al-Ghazali",
               "url": "https://www.google.co.id/books/edition/Imam_Al_Ghazali/JTVnEAAAQBAJ?hl=en&gbpv=1&dq=biografi+tokoh+islam&pg=PA161&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/13.png"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/13.png"
             },
             {
               "id": 14,
               "judul": "Imam Muslim",
               "url": "https://www.google.co.id/books/edition/Imam_Muslim/palcEAAAQBAJ?hl=en&gbpv=1&dq=biografi+tokoh+islam&pg=PA17&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/14.png"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/14.png"
             },
             {
               "id": 15,
               "judul": "Biografi Ulama Nusantara",
               "url": "https://www.google.co.id/books/edition/Biografi_Ulama_Nusantara/DHZVEAAAQBAJ?hl=en&gbpv=1&dq=biografi+tokoh+islam&pg=PA88&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/biografi/15.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/biografi/15.jpg"
             }
           ]
         },
@@ -1072,67 +976,67 @@
               "id": 1,
               "judul": "Sejarah Lengkap Dunia Abad Pertengahan 5",
               "url": "https://www.google.co.id/books/edition/Sejarah_Lengkap_Dunia_Abad_Pertengahan_5/Z8zzDwAAQBAJ?hl=id&gbpv=1",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/sejarah/1.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/sejarah/1.jpg"
             },
             {
               "id": 2,
               "judul": "Sejarah Lengkap Perang Dunia I",
               "url": "https://www.google.co.id/books/edition/Sejarah_Lengkap_Perang_Dunia_I/LmXyDwAAQBAJ?hl=id&gbpv=1&dq=buku+sejarah&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/sejarah/2.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/sejarah/2.jpg"
             },
             {
               "id": 3,
               "judul": "Riset Keperawatan Sejarah Metodologi",
               "url": "https://www.google.co.id/books/edition/Riset_Keperawatan_Sejarah_Metodologi/X6wxBcnxxeQC?hl=id&gbpv=1&dq=buku+sejarah&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/sejarah/3.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/sejarah/3.jpg"
             },
             {
               "id": 4,
               "judul": "Sejarah Peradaban Dunia Kuno Empat Benua",
               "url": "https://www.google.co.id/books/edition/Sejarah_Peradaban_Dunia_Kuno_Empat_Benua/6MX1DwAAQBAJ?hl=id&gbpv=1",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/sejarah/4.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/sejarah/4.jpg"
             },
             {
               "id": 5,
               "judul": "Sejarah Hukum Indonesia",
               "url": "https://www.google.co.id/books/edition/Sejarah_Hukum_Indonesia/8IM8EAAAQBAJ?hl=id&gbpv=1&dq=buku+sejarah&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/sejarah/5.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/sejarah/5.jpg"
             },
             {
               "id": 6,
               "judul": "Nusantara",
               "url": "https://www.google.co.id/books/edition/Nusantara/aY-ohLcYdhQC?hl=id&gbpv=1&dq=buku+sejarah&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/sejarah/6.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/sejarah/6.jpg"
             },
             {
               "id": 7,
               "judul": "Sejarah Keteladanan Nabi Muhammad SAW",
               "url": "https://www.google.co.id/books/edition/Sejarah_Keteladanan_Nabi_Muhammad_SAW_Me/AmgfEAAAQBAJ?hl=id&gbpv=1&dq=buku+sejarah&pg=PR11&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/sejarah/7.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/sejarah/7.jpg"
             },
             {
               "id": 8,
               "judul": "Sejarah Pendidikan Islam",
               "url": "https://www.google.co.id/books/edition/Sejarah_Pendidikan_Islam/v_m2DwAAQBAJ?hl=id&gbpv=1&dq=buku+sejarah&pg=PA5&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/sejarah/8.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/sejarah/8.jpg"
             },
             {
               "id": 9,
               "judul": "Sejarah Pramuka Dunia",
               "url": "https://www.google.co.id/books/edition/Sejarah_Pramuka_Dunia/cT1lEAAAQBAJ?hl=id&gbpv=1",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/sejarah/9.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/sejarah/9.jpg"
             },
             {
               "id": 10,
               "judul": "Sejarah Perkembangan Teknologi Informasi",
               "url": "https://www.google.co.id/books/edition/Sejarah_Perkembangan_Teknologi_Informasi/d5jJDAAAQBAJ?hl=id&gbpv=1&dq=sejarah+dunia&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/sejarah/10.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/sejarah/10.jpg"
             },
             {
               "id": 11,
               "judul": "Perkembangan Uang dalam Sejarah Indonesia",
               "url": "https://www.google.co.id/books/edition/PERKEMBANGAN_UANG_DALAM_SEJARAH_INDONESI/NPHwDwAAQBAJ?hl=id&gbpv=1",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/sejarah/11.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/sejarah/11.jpg"
             }
           ]
         },
@@ -1143,91 +1047,91 @@
               "id": 1,
               "judul": "Buku Teknologi Printsec",
               "url": "https://www.google.co.id/books/edition/Media_Now_Understanding_Media_Culture_an/jUR-BAAAQBAJ?hl=en&gbpv=1&dq=buku+teknologi&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/1.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/1.jpg"
             },
             {
               "id": 2,
               "judul": "Teknologi Keuangan Anak Muda",
               "url": "https://www.google.co.id/books/edition/Teknologi_Keuangan_Anak_Muda/mBFsEAAAQBAJ?hl=en&gbpv=1&dq=buku+teknologi&pg=PR3&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/2.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/2.jpg"
             },
             {
               "id": 3,
               "judul": "Siri Teknologi Baharu: Teknologi Tenaga",
               "url": "https://www.google.co.id/books/edition/Siri_Teknologi_Baharu_Teknologi_Tenaga/ftmPYejs_3AC?hl=en&gbpv=1&dq=buku+teknologi&pg=PA4&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/3.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/3.jpg"
             },
             {
               "id": 4,
               "judul": "Siri Teknologi Baharu: Teknologi Tentera",
               "url": "https://www.google.co.id/books/edition/Siri_Teknologi_Baharu_Teknologi_Tentera/hafG9dJj6s8C?hl=en&gbpv=1&dq=buku+teknologi&pg=PA4&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/4.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/4.jpg"
             },
             {
               "id": 5,
               "judul": "TEKNOLOGI TEPAT GUNA",
               "url": "https://www.google.co.id/books/edition/TEKNOLOGI_TEPAT_GUNA/_VhHEAAAQBAJ?hl=en&gbpv=1&dq=buku+teknologi&pg=PR3&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/5.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/5.jpg"
             },
             {
               "id": 6,
               "judul": "Teknologi Kendaraan Berbahan Bakar LPG",
               "url": "https://www.google.co.id/books/edition/Teknologi_Kendaraan_Berbahan_Bakar_LPG/26SiDwAAQBAJ?hl=en&gbpv=1&dq=buku+teknologi&pg=PR6&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/6.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/6.jpg"
             },
             {
               "id": 7,
               "judul": "Siri Teknologi Baharu: Teknologi Pengangkutan",
               "url": "https://www.google.co.id/books/edition/Siri_Teknologi_Baharu_Teknologi_Pengangk/HXdDCkj9_WQC?hl=en&gbpv=1&dq=buku+teknologi&pg=PA4&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/7.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/7.jpg"
             },
             {
               "id": 8,
               "judul": "Teknologi Pengolahan Produk Perikanan",
               "url": "https://www.google.co.id/books/edition/Teknologi_Pengolahan_Produk_Perikanan/rzJkEAAAQBAJ?hl=en&gbpv=1&dq=buku+teknologi&pg=PA145&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/8.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/8.jpg"
             },
             {
               "id": 9,
               "judul": "Teknologi Sediaan Farmasi",
               "url": "https://www.google.co.id/books/edition/Teknologi_Sediaan_Farmasi/b36ODwAAQBAJ?hl=en&gbpv=1&dq=buku+teknologi&pg=PA586&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/9.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/9.jpg"
             },
             {
               "id": 10,
               "judul": "Teknologi Otomotif Dasar",
               "url": "https://www.google.co.id/books/edition/Teknologi_Otomotif_Dasar/osydEAAAQBAJ?hl=en&gbpv=1&dq=buku+teknologi+otomotif&pg=PR5&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/10.png"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/10.png"
             },
             {
               "id": 11,
               "judul": "Elektronika Dasar: Pengenalan Praktis",
               "url": "https://www.google.co.id/books/edition/Elektronika_Dasar_Pengenalan_Praktis/84tKDwAAQBAJ?hl=en&gbpv=1&dq=buku+teknologi+elektronik&pg=PR5&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/11.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/11.jpg"
             },
             {
               "id": 12,
               "judul": "Pengenalan Teknik Komposit",
               "url": "https://www.google.co.id/books/edition/Pengenalan_Teknik_Komposit/GJaEDwAAQBAJ?hl=en&gbpv=1&dq=buku+teknologi+penerbangan&pg=PR1&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/12.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/12.jpg"
             },
             {
               "id": 13,
               "judul": "Astronomi Islam",
               "url": "https://www.google.co.id/books/edition/Astronomi_Islam/WOMhEAAAQBAJ?hl=en&gbpv=1&dq=buku+teknologi+astronomi&pg=PT79&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/13.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/13.jpg"
             },
             {
               "id": 14,
               "judul": "PENGANTAR TEKNIK INDUSTRI",
               "url": "https://www.google.co.id/books/edition/PENGANTAR_TEKNIK_INDUSTRI/-SzJEAAAQBAJ?hl=en&gbpv=1&dq=buku+teknologi+industri&pg=PR1&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/14.jpg"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/14.jpg"
             },
             {
               "id": 15,
               "judul": "Pendidikan Sains dan Teknologi",
               "url": "https://www.google.co.id/books/edition/Pendidikan_Sains_dan_Teknologi/NJ_pDwAAQBAJ?hl=en&gbpv=1&dq=buku+teknologi+pertambangan&pg=PA93&printsec=frontcover",
-              "imgUrl": "../public/buku/non-fiksi/pengetahuan-umum/teknologi/15.png"
+              "imgUrl": "./non-fiksi/pengetahuan-umum/teknologi/15.png"
             }
           ]
         }

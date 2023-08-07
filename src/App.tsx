@@ -10,17 +10,13 @@ import ButtonScrolltoTop from './components/ButtonScrolltoTop';
 import { useWindowScroll } from '@mantine/hooks';
 import HamburgerMenu from './components/HamburgerMenu';
 import { TypeAnimation } from 'react-type-animation';
-import AOS from 'aos';
+import getImgUrl from '../public/getImgUrl';
 
 const App: React.FC = () => {
   const [scroll, scrollTo] = useWindowScroll();
   const visiMisiRef = React.useRef<HTMLDivElement | null>(null);
   const bacaBukuRef = React.useRef<HTMLDivElement | null>(null);
   const lokasiRef = React.useRef<HTMLDivElement | null>(null);
-
-  React.useEffect(() => {
-    AOS.init();
-  }, []);
 
   const scrollToHome = () => {
     if (visiMisiRef.current) {
@@ -92,7 +88,7 @@ const App: React.FC = () => {
           </div>
           <img src={FOTO_HERO} alt="Logo Kabupaten Bekasi" className="rounded-3xl lg:max-w-[400px] xl:max-w-[500px] w-full m-auto " />
         </section>
-        <section className="py-12 px-7 sm:px-10 flex flex-col gap-10" ref={visiMisiRef} data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+        <section className="py-12 px-7 sm:px-10 flex flex-col gap-10" ref={visiMisiRef}>
           <h1 className="text-xl font-bold md:text-2xl md:leading-snug lg:text-4xl lg:leading-snug text-center md:text-left">Kenali Visi dan Misi Jayasampurna</h1>
           <div className="flex flex-col gap-3">
             <h1 className="font-semibold text-lg md:text-xl">Visi</h1>
@@ -145,7 +141,7 @@ const App: React.FC = () => {
                     ]}>
                     {values.list.map((value) => (
                       <a href={value.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" key={value.id}>
-                        <img src={value.imgUrl} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
+                        <img src={getImgUrl(value.imgUrl)} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
                         <h1 className="capitalize font-medium text-sm text-center p-2">"{value.judul}"</h1>
                       </a>
                     ))}
@@ -181,7 +177,7 @@ const App: React.FC = () => {
                       className="pt-4">
                       {values.list?.map((value) => (
                         <a href={value.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" key={value.id}>
-                          <img src={value.imgUrl} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
+                          <img src={getImgUrl(value.imgUrl)} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
                           <h1 className="capitalize font-medium text-sm text-center p-2">"{value.judul}"</h1>
                         </a>
                       ))}
@@ -201,7 +197,7 @@ const App: React.FC = () => {
                               ]}>
                               {value.list?.map((val) => (
                                 <a href={val.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" key={val.id}>
-                                  <img src={val.imgUrl} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
+                                  <img src={getImgUrl(val.imgUrl)} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
                                   <h1 className="capitalize font-medium text-sm text-center p-2">"{val.judul}"</h1>
                                 </a>
                               ))}
@@ -219,7 +215,7 @@ const App: React.FC = () => {
                                     ]}>
                                     {val.list?.map((v) => (
                                       <a href={v.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" key={v.id}>
-                                        <img src={v.imgUrl} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
+                                        <img src={getImgUrl(v.imgUrl)} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
                                         <h1 className="capitalize font-medium text-sm text-center p-2">"{v.judul}"</h1>
                                       </a>
                                     ))}
@@ -246,7 +242,7 @@ const App: React.FC = () => {
                               ]}>
                               {value.list?.map((val) => (
                                 <a href={val.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" key={val.id}>
-                                  <img src={val.imgUrl} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
+                                  <img src={getImgUrl(val.imgUrl)} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
                                   <h1 className="capitalize font-medium text-sm text-center p-2">"{val.judul}"</h1>
                                 </a>
                               ))}
@@ -264,7 +260,7 @@ const App: React.FC = () => {
                                     ]}>
                                     {val.list?.map((v) => (
                                       <a href={v.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" key={v.id}>
-                                        <img src={v.imgUrl} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
+                                        <img src={getImgUrl(v.imgUrl)} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
                                         <h1 className="capitalize font-medium text-sm text-center p-2">"{v.judul}"</h1>
                                       </a>
                                     ))}
