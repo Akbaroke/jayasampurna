@@ -10,13 +10,22 @@ import ButtonScrolltoTop from './components/ButtonScrolltoTop';
 import { useWindowScroll } from '@mantine/hooks';
 import HamburgerMenu from './components/HamburgerMenu';
 import { TypeAnimation } from 'react-type-animation';
-import getImgUrl from '../public/getImgUrl';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Card, { PropsCard } from './components/Card';
 
 const App: React.FC = () => {
   const [scroll, scrollTo] = useWindowScroll();
   const visiMisiRef = React.useRef<HTMLDivElement | null>(null);
   const bacaBukuRef = React.useRef<HTMLDivElement | null>(null);
   const lokasiRef = React.useRef<HTMLDivElement | null>(null);
+
+  React.useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      delay: 200,
+    });
+  }, []);
 
   const scrollToHome = () => {
     if (visiMisiRef.current) {
@@ -46,7 +55,7 @@ const App: React.FC = () => {
     <>
       <nav className="py-5 px-7 sm:px-10 border-b sticky top-0 bg-white/70 backdrop-blur-md z-50">
         <Container className="flex justify-between items-center">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 cursor-pointer" onClick={() => location.reload()}>
             <img src={LOGO} alt="Logo Kabupaten Bekasi" width={40} />
             <h1 className="font-semibold text-xl">Jayasampurna</h1>
           </div>
@@ -69,6 +78,8 @@ const App: React.FC = () => {
                   sequence={[
                     'Jayasampurna adalah sebuah kelurahan di kecamatan Serang Baru, Kab Bekasi, Jawa Barat, Indonesia.',
                     2000,
+                    '',
+                    1000,
                     'Jayasampurna adalah sebuah kelurahan di kecamatan Serang Baru, Kab Bekasi, Jawa Barat, Indonesia.',
                     2000,
                   ]}
@@ -89,12 +100,14 @@ const App: React.FC = () => {
           <img src={FOTO_HERO} alt="Logo Kabupaten Bekasi" className="rounded-3xl lg:max-w-[400px] xl:max-w-[500px] w-full m-auto " />
         </section>
         <section className="py-12 px-7 sm:px-10 flex flex-col gap-10" ref={visiMisiRef}>
-          <h1 className="text-xl font-bold md:text-2xl md:leading-snug lg:text-4xl lg:leading-snug text-center md:text-left">Kenali Visi dan Misi Jayasampurna</h1>
-          <div className="flex flex-col gap-3">
+          <h1 className="text-xl font-bold md:text-2xl md:leading-snug lg:text-4xl lg:leading-snug text-center md:text-left" data-aos="fade-up">
+            Kenali Visi dan Misi Jayasampurna
+          </h1>
+          <div className="flex flex-col gap-3" data-aos="fade-right">
             <h1 className="font-semibold text-lg md:text-xl">Visi</h1>
             <p className="leading-relaxed text-gray-600 md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">"Terwujudnya masyarakat desa jayasampurna yang berakhlak mulia, sehat, cerdas dan sejahtera."</p>
           </div>
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3" data-aos="fade-left">
             <h1 className="font-semibold text-lg md:text-xl">Misi</h1>
             <div className="pl-5">
               <ul className="list-disc flex flex-col gap-3 leading-relaxed text-gray-600 md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
@@ -113,7 +126,7 @@ const App: React.FC = () => {
         <section className="py-12 px-7 sm:px-10" ref={bacaBukuRef}>
           <div className="flex gap-5 items-center">
             <h1 className="text-2xl font-bold md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">Ayo Membaca</h1>
-            <img src={HIGIF} alt="" className="w-10" />
+            <img src={HIGIF} alt="jayasampurna" className="w-10" />
           </div>
           <div className="mt-10 flex flex-col gap-10">
             <Tabs keepMounted={false} defaultValue="0" variant="pills" radius="md" color="gray">
@@ -140,10 +153,7 @@ const App: React.FC = () => {
                       { minWidth: 'lg', cols: 5, spacing: 'xl' },
                     ]}>
                     {values.list.map((value) => (
-                      <a href={value.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" key={value.id}>
-                        <img src={getImgUrl(value.imgUrl)} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
-                        <h1 className="capitalize font-medium text-sm text-center p-2">"{value.judul}"</h1>
-                      </a>
+                      <Card value={value as unknown as PropsCard} key={value.id} />
                     ))}
                   </SimpleGrid>
                 </Tabs.Panel>
@@ -176,10 +186,7 @@ const App: React.FC = () => {
                       ]}
                       className="pt-4">
                       {values.list?.map((value) => (
-                        <a href={value.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" key={value.id}>
-                          <img src={getImgUrl(value.imgUrl)} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
-                          <h1 className="capitalize font-medium text-sm text-center p-2">"{value.judul}"</h1>
-                        </a>
+                        <Card value={value as unknown as PropsCard} key={value.id} />
                       ))}
                     </SimpleGrid>
                   ) : values.nama === 'Pendidikan' ? (
@@ -196,10 +203,7 @@ const App: React.FC = () => {
                                 { minWidth: 'lg', cols: 5, spacing: 'xl' },
                               ]}>
                               {value.list?.map((val) => (
-                                <a href={val.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" key={val.id}>
-                                  <img src={getImgUrl(val.imgUrl)} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
-                                  <h1 className="capitalize font-medium text-sm text-center p-2">"{val.judul}"</h1>
-                                </a>
+                                <Card value={val as unknown as PropsCard} key={val.id} />
                               ))}
                             </SimpleGrid>
                             <div className="flex flex-col gap-8">
@@ -214,10 +218,7 @@ const App: React.FC = () => {
                                       { minWidth: 'lg', cols: 5, spacing: 'xl' },
                                     ]}>
                                     {val.list?.map((v) => (
-                                      <a href={v.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" key={v.id}>
-                                        <img src={getImgUrl(v.imgUrl)} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
-                                        <h1 className="capitalize font-medium text-sm text-center p-2">"{v.judul}"</h1>
-                                      </a>
+                                      <Card value={v as unknown as PropsCard} key={v.id} />
                                     ))}
                                   </SimpleGrid>
                                 </div>
@@ -241,10 +242,7 @@ const App: React.FC = () => {
                                 { minWidth: 'lg', cols: 5, spacing: 'xl' },
                               ]}>
                               {value.list?.map((val) => (
-                                <a href={val.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" key={val.id}>
-                                  <img src={getImgUrl(val.imgUrl)} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
-                                  <h1 className="capitalize font-medium text-sm text-center p-2">"{val.judul}"</h1>
-                                </a>
+                                <Card value={val as unknown as PropsCard} key={val.id} />
                               ))}
                             </SimpleGrid>
                             <div className="flex flex-col gap-8">
@@ -259,10 +257,7 @@ const App: React.FC = () => {
                                       { minWidth: 'lg', cols: 5, spacing: 'xl' },
                                     ]}>
                                     {val.list?.map((v) => (
-                                      <a href={v.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" key={v.id}>
-                                        <img src={getImgUrl(v.imgUrl)} alt="" className="rounded-tr-lg rounded-tl-lg  h-44 w-full object-center object-cover" />
-                                        <h1 className="capitalize font-medium text-sm text-center p-2">"{v.judul}"</h1>
-                                      </a>
+                                      <Card value={v as unknown as PropsCard} key={v.id} />
                                     ))}
                                   </SimpleGrid>
                                 </div>
