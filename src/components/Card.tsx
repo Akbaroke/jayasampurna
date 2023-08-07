@@ -12,7 +12,7 @@ export interface PropsCard {
 export default function Card({ value }: { value: PropsCard }) {
   const [isLoading, setIsLoading] = React.useState(true);
   return (
-    <a href={value.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" data-aos="fade-up" data-aos-delay={parseInt(value.id) * 50}>
+    <a href={value.url} target="_blank" className="bg-white rounded-lg flex flex-col border shadow-sm hover:shadow-none hover:scale-95 transition-all duration-500" data-aos="fade-up" data-aos-delay={parseInt(value.id) * 20}>
       <Skeleton visible={isLoading}>
         <img src={getImgUrl(value.imgUrl)} alt={value.judul} className="rounded-tr-lg rounded-tl-lg h-48 w-full object-center object-cover" onLoad={() => setIsLoading(false)} />
       </Skeleton>
