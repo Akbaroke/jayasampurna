@@ -1,0 +1,440 @@
+{
+  "type": "fiksi",
+  "kategory": [
+    {
+      "nama": "Cerita Anak",
+      "list": [
+        {
+          "id": 1,
+          "judul": "panggil aku namaku",
+          "url": "https://buku.kemdikbud.go.id/katalog/panggil-aku-namaku",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/1.jpg"
+        },
+        {
+          "id": 2,
+          "judul": "botol minum ru",
+          "url": "https://buku.kemdikbud.go.id/katalog/botol-minum-ru",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/2.jpg"
+        },
+        {
+          "id": 3,
+          "judul": "apa itu ?",
+          "url": "https://buku.kemdikbud.go.id/katalog/apa-itu",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/3.jpg"
+        },
+        {
+          "id": 4,
+          "judul": "namaku kali",
+          "url": "https://buku.kemdikbud.go.id/katalog/namaku-kali",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/4.jpg"
+        },
+        {
+          "id": 5,
+          "judul": "atu dan sandal",
+          "url": "https://buku.kemdikbud.go.id/katalog/atu-dan-sandal",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/5.jpg"
+        },
+        {
+          "id": 6,
+          "judul": "si cemong coak",
+          "url": "https://buku.kemdikbud.go.id/katalog/si-cemong-coak",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/6.jpg"
+        },
+        {
+          "id": 7,
+          "judul": "damar kurung persahabatan",
+          "url": "https://buku.kemdikbud.go.id/katalog/damar-kurung-persahabatan",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/7.jpg"
+        },
+        {
+          "id": 8,
+          "judul": "biji merah luna",
+          "url": "https://buku.kemdikbud.go.id/katalog/biji-merah-luna",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/8.jpg"
+        },
+        {
+          "id": 9,
+          "judul": "kue kimu",
+          "url": "https://buku.kemdikbud.go.id/katalog/kue-kimu",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/9.jpg"
+        },
+        {
+          "id": 10,
+          "judul": "apa yang lebih seru",
+          "url": "https://buku.kemdikbud.go.id/katalog/apa-yang-lebih-seru",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/10.jpg"
+        },
+        {
+          "id": 11,
+          "judul": "di mana kacang sipet",
+          "url": "https://buku.kemdikbud.go.id/katalog/di-mana-kacang-sipet",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/11.jpg"
+        },
+        {
+          "id": 12,
+          "judul": "naik naik ke puncak bukit",
+          "url": "https://buku.kemdikbud.go.id/katalog/naik-naik-ke-puncak-bukit",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/12.jpg"
+        },
+        {
+          "id": 13,
+          "judul": "putri dalam hutan",
+          "url": "https://buku.kemdikbud.go.id/katalog/putri-dalam-hutan",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/13.jpg"
+        },
+        {
+          "id": 14,
+          "judul": "nanti saja",
+          "url": "https://buku.kemdikbud.go.id/katalog/nanti-saja",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/14.jpg"
+        },
+        {
+          "id": 15,
+          "judul": "tidak bisa tidak",
+          "url": "https://buku.kemdikbud.go.id/katalog/tidak-bisa-tidak",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/15.jpg"
+        },
+        {
+          "id": 16,
+          "judul": "ini atau itu",
+          "url": "https://buku.kemdikbud.go.id/katalog/ini-atau-itu",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/16.jpg"
+        },
+        {
+          "id": 17,
+          "judul": "selamatkan dirimu",
+          "url": "https://buku.kemdikbud.go.id/katalog/selamatkan-dirimu",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/17.jpg"
+        },
+        {
+          "id": 18,
+          "judul": "tiup-tiup",
+          "url": "https://buku.kemdikbud.go.id/katalog/tiup-tiup",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/18.jpg"
+        },
+        {
+          "id": 19,
+          "judul": "pilus rumput laut untuk rasi",
+          "url": "https://buku.kemdikbud.go.id/katalog/pilus-rumput-laut-untuk-rasi",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/19.jpg"
+        },
+        {
+          "id": 20,
+          "judul": "aku sudah besar",
+          "url": "https://buku.kemdikbud.go.id/katalog/aku-sudah-besar",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/20.jpg"
+        },
+        {
+          "id": 21,
+          "judul": "gambar lucu mika",
+          "url": "https://buku.kemdikbud.go.id/katalog/gambar-lucu-mika",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/21.jpg"
+        },
+        {
+          "id": 22,
+          "judul": "rumah wortel",
+          "url": "https://buku.kemdikbud.go.id/katalog/rumah-wortel",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/22.jpg"
+        },
+        {
+          "id": 23,
+          "judul": "coba dulu tora",
+          "url": "https://buku.kemdikbud.go.id/katalog/coba-dulu-tora",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/23.jpg"
+        },
+        {
+          "id": 24,
+          "judul": "ketika lo piknik",
+          "url": "https://sikapiuangmu.ojk.go.id/FrontEnd/images/FileDownload/501_Buku%204%20KETIKA%20LO%20PIKNIK%20-%20LOWRES.pdf",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/24.jpg"
+        },
+        {
+          "id": 25,
+          "judul": "penghapus rama",
+          "url": "https://sikapiuangmu.ojk.go.id/FrontEnd/images/FileDownload/504_Buku%202%20PENGHAPUS%20RAMA.pdf",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/25.jpg"
+        },
+        {
+          "id": 26,
+          "judul": "isi dan sampul kalah oleh si cerdik",
+          "url": "https://badanbahasa.kemdikbud.go.id/resource/doc/files/74._Isi_dan_Sampul_Kalah_oleh_Si_Cerdik.pdf",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/26.jpg"
+        },
+        {
+          "id": 27,
+          "judul": "ibu ayam",
+          "url": "https://ihf.or.id/wp-content/uploads/2020/12/ibu-ayam.pdf",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/27.jpg"
+        },
+        {
+          "id": 28,
+          "judul": "kalarahu",
+          "url": "https://repositori.kemdikbud.go.id/2849/1/Kalarahu%20Kumpulan%20Cerita%20Rakyat%20Jawa.pdf",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/28.jpg"
+        },
+        {
+          "id": 29,
+          "judul": "putri tandampalik",
+          "url": "https://online.flipbuilder.com/xviae/guek/?AVGAFFILIATE=55741&__c=1",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/29.jpg"
+        },
+        {
+          "id": 30,
+          "judul": "petualangan si kancil",
+          "url": "https://repositori.kemdikbud.go.id/3418/1/Petualangan%20si%20kancil.pdf",
+          "imgUrl": "../public/buku/fiksi/cerita-anak/30.jpg"
+        }
+      ]
+    },
+    {
+      "nama": "Komik",
+      "list": [
+        {
+          "id": 1,
+          "judul": "Ayo Mengaji",
+          "url": "https://komiknextgonline.com/comic/ayo-mengaji/",
+          "imgUrl": "../public/buku/fiksi/komik/1.webp"
+        },
+        {
+          "id": 2,
+          "judul": "Berangkat Tarawih",
+          "url": "https://komiknextgonline.com/comic/berangkat-tarawih/",
+          "imgUrl": "../public/buku/fiksi/komik/2.webp"
+        },
+        {
+          "id": 3,
+          "judul": "Cerita Kucing",
+          "url": "https://komiknextgonline.com/comic/cerita-kucing/",
+          "imgUrl": "../public/buku/fiksi/komik/3.webp"
+        },
+        {
+          "id": 4,
+          "judul": "Janji Persahabatan",
+          "url": "https://komiknextgonline.com/comic/janji-persahabatan/",
+          "imgUrl": "../public/buku/fiksi/komik/4.webp"
+        },
+        {
+          "id": 5,
+          "judul": "Kakakku Terbaik",
+          "url": "https://komiknextgonline.com/comic/kakakku-terbaik/",
+          "imgUrl": "../public/buku/fiksi/komik/5.webp"
+        },
+        {
+          "id": 6,
+          "judul": "Kapsul Waktu",
+          "url": "https://komiknextgonline.com/comic/kapsul-waktu/",
+          "imgUrl": "../public/buku/fiksi/komik/6.webp"
+        },
+        {
+          "id": 7,
+          "judul": "Kelinci Kesayanganku",
+          "url": "https://komiknextgonline.com/comic/kelinci-kesayanganku/",
+          "imgUrl": "../public/buku/fiksi/komik/7.webp"
+        },
+        {
+          "id": 8,
+          "judul": "Ketika Hujan",
+          "url": "https://komiknextgonline.com/comic/ketika-hujan/",
+          "imgUrl": "../public/buku/fiksi/komik/8.webp"
+        },
+        {
+          "id": 9,
+          "judul": "Kucing Hitam",
+          "url": "https://komiknextgonline.com/comic/kucing-hitam/",
+          "imgUrl": "../public/buku/fiksi/komik/9.webp"
+        },
+        {
+          "id": 10,
+          "judul": "Main Bola",
+          "url": "https://komiknextgonline.com/comic/main-bola/",
+          "imgUrl": "../public/buku/fiksi/komik/10.webp"
+        },
+        {
+          "id": 11,
+          "judul": "Main Hujan",
+          "url": "https://komiknextgonline.com/comic/main-hujan/",
+          "imgUrl": "../public/buku/fiksi/komik/11.webp"
+        },
+        {
+          "id": 12,
+          "judul": "Menolong Kakek",
+          "url": "https://komiknextgonline.com/comic/menolong-kakek/",
+          "imgUrl": "../public/buku/fiksi/komik/12.webp"
+        },
+        {
+          "id": 13,
+          "judul": "Menunggu Adzan",
+          "url": "https://komiknextgonline.com/comic/menunggu-adzan/",
+          "imgUrl": "../public/buku/fiksi/komik/13.webp"
+        },
+        {
+          "id": 14,
+          "judul": "Minta Tolong",
+          "url": "https://komiknextgonline.com/comic/minta-tolong/",
+          "imgUrl": "../public/buku/fiksi/komik/14.webp"
+        },
+        {
+          "id": 15,
+          "judul": "Misteri Gudang Sekolah",
+          "url": "https://komiknextgonline.com/comic/misteri-gudang-sekolah/",
+          "imgUrl": "../public/buku/fiksi/komik/15.webp"
+        },
+        {
+          "id": 16,
+          "judul": "Piano Misterius",
+          "url": "https://komiknextgonline.com/comic/piano-misterius/",
+          "imgUrl": "../public/buku/fiksi/komik/16.webp"
+        },
+        {
+          "id": 17,
+          "judul": "Rajin vs Malas",
+          "url": "https://komiknextgonline.com/comic/rajin-vs-malas/",
+          "imgUrl": "../public/buku/fiksi/komik/17.webp"
+        },
+        {
+          "id": 18,
+          "judul": "Teman Menakutkan",
+          "url": "https://komiknextgonline.com/comic/teman-menakutkan/",
+          "imgUrl": "../public/buku/fiksi/komik/18.webp"
+        },
+        {
+          "id": 19,
+          "judul": "Tidur Magrib",
+          "url": "https://komiknextgonline.com/comic/tidur-magrib/",
+          "imgUrl": "../public/buku/fiksi/komik/19.webp"
+        },
+        {
+          "id": 20,
+          "judul": "Tutorial Masak",
+          "url": "https://komiknextgonline.com/comic/tutorial-masak/",
+          "imgUrl": "../public/buku/fiksi/komik/20.webp"
+        }
+      ]
+    },
+    {
+      "nama": "Novel",
+      "list": [
+        {
+          "id": 1,
+          "judul": "Achromatopsia: Kayu dan Kaca",
+          "url": "https://www.google.co.id/books/edition/Achromatopsia_Kayu_dan_Kaca_Novel_Penerb/AxpgEAAAQBAJ?hl=id&gbpv=1&dq=novel+2021&pg=PP3&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/1.jpg"
+        },
+        {
+          "id": 2,
+          "judul": "Ancika",
+          "url": "https://www.google.co.id/books/edition/Ancika/ri5EEAAAQBAJ?hl=id&gbpv=1",
+          "imgUrl": "../public/buku/fiksi/novel/2.jpg"
+        },
+        {
+          "id": 3,
+          "judul": "Berdamai dengan Rasa Malas",
+          "url": "https://www.google.co.id/books/edition/Berdamai_dengan_Rasa_Malas/rKPyDwAAQBAJ?hl=id&gbpv=1",
+          "imgUrl": "../public/buku/fiksi/novel/3.jpg"
+        },
+        {
+          "id": 4,
+          "judul": "BUMI CINTA",
+          "url": "https://www.google.co.id/books/edition/BUMI_CINTA/ulzhDwAAQBAJ?hl=id&gbpv=1&dq=ayat+ayat+cinta&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/4.jpg"
+        },
+        {
+          "id": 5,
+          "judul": "Genta Nandea",
+          "url": "https://www.google.co.id/books/edition/Genta_Nandea/pcVHEAAAQBAJ?hl=id&gbpv=1&dq=kata+kokoh&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/5.jpg"
+        },
+        {
+          "id": 6,
+          "judul": "Hi Pretty",
+          "url": "https://www.google.co.id/books/edition/Hi_Pretty/x8zsXeENCn0C?hl=id&gbpv=1&dq=novel+islami&pg=PA141&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/6.jpg"
+        },
+        {
+          "id": 7,
+          "judul": "HUJAN: Unedited Version",
+          "url": "https://www.google.co.id/books/edition/HUJAN_unedited_version/NOd3DwAAQBAJ?hl=id&gbpv=1&dq=novel+2021&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/7.jpg"
+        },
+        {
+          "id": 8,
+          "judul": "Inestable",
+          "url": "https://www.google.co.id/books/edition/Inestable/1eJVDwAAQBAJ?hl=id&gbpv=1&dq=kata+kokoh&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/8.jpg"
+        },
+        {
+          "id": 9,
+          "judul": "Jangan Membuat Masalah Kecil Jadi Masalah Besar",
+          "url": "https://www.google.co.id/books/edition/Jangan_Membuat_Masalah_Kecil_Jadi_Masala/n3-zEAAAQBAJ?hl=id&gbpv=1",
+          "imgUrl": "../public/buku/fiksi/novel/9.jpg"
+        },
+        {
+          "id": 10,
+          "judul": "Laskar Pelangi",
+          "url": "https://www.google.co.id/books/edition/Laskar_Pelangi/S0ZNe2iqM54C?hl=id&gbpv=1&dq=laskar+pelangi&pg=PA200&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/10.jpg"
+        },
+        {
+          "id": 11,
+          "judul": "Maria: Novel Lovrinz Publishing",
+          "url": "https://www.google.co.id/books/edition/Maria_Novel_Lovrinz_Publishing/NP0WEAAAQBAJ?hl=id&gbpv=1&dq=novel+2020&pg=PT204&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/11.jpg"
+        },
+        {
+          "id": 12,
+          "judul": "My Ice Boy",
+          "url": "https://www.google.co.id/books/edition/My_Ice_Boy/U8p1DwAAQBAJ?hl=id&gbpv=1&dq=navadwiputri&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/12.jpg"
+        },
+        {
+          "id": 13,
+          "judul": "My Ice Girl",
+          "url": "https://www.google.co.id/books/edition/My_Ice_Girl/8tNNDwAAQBAJ?hl=id&gbpv=1&dq=navadwiputri&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/13.jpg"
+        },
+        {
+          "id": 14,
+          "judul": "Perfect Couple",
+          "url": "https://www.google.co.id/books/edition/Perfect_Couple/i1w9DwAAQBAJ?hl=id&gbpv=1&dq=asriaci&pg=PP7&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/14.jpg"
+        },
+        {
+          "id": 15,
+          "judul": "satria wilwatika",
+          "url": "https://www.gwp.id/chapter/36205/36207/prolog",
+          "imgUrl": "../public/buku/fiksi/novel/15.jpg"
+        },
+        {
+          "id": 16,
+          "judul": "Senandika",
+          "url": "https://www.google.co.id/books/edition/Senandika/vMhLEAAAQBAJ?hl=id&gbpv=1&dq=luluk+hf&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/16.jpg"
+        },
+        {
+          "id": 17,
+          "judul": "Seperti Hujan yang Jatuh ke Bumi",
+          "url": "https://www.google.co.id/books/edition/Seperti_Hujan_yang_Jatuh_ke_Bumi/tcl7DQAAQBAJ?hl=id&gbpv=1&dq=boy+candra&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/17.jpg"
+        },
+        {
+          "id": 18,
+          "judul": "Shea",
+          "url": "https://www.google.co.id/books/edition/Shea/Sn6SDwAAQBAJ?hl=id&gbpv=1&dq=asri+aci&printsec=frontcover",
+          "imgUrl": "../public/buku/fiksi/novel/18.jpg"
+        },
+        {
+          "id": 19,
+          "judul": "Surat Kecil untuk Tuhan",
+          "url": "https://www.google.co.id/books/edition/Surat_Kecil_untuk_Tuhan/Qi5wDwAAQBAJ?hl=id&gbpv=1",
+          "imgUrl": "../public/buku/fiksi/novel/19.jpg"
+        },
+        {
+          "id": 20,
+          "judul": "ZULAIKHA",
+          "url": "https://www.google.co.id/books/edition/ZULAIKHA/-ZOWDwAAQBAJ?hl=id&gbpv=1",
+          "imgUrl": "../public/buku/fiksi/novel/20.jpg"
+        }
+      ]
+    }
+  ]
+}
