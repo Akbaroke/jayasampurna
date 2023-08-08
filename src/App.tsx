@@ -91,8 +91,8 @@ const App: React.FC = () => {
           <HamburgerMenu scrollToHome={scrollToHome} scrollToVisiMisi={scrollToVisiMisi} scrollToBukuFiksi={scrollToBukuFiksi} scrollToBukuNonFiksi={scrollToBukuNonFiksi} scrollToLokasi={scrollToLokasi} />
         </Container>
       </nav>
-      <Container className="flex flex-col gap-20">
-        <section className="py-12 px-6 sm:px-10 h-screen md:h-max">
+      <Container className="flex flex-col">
+        <section className="py-12 px-6 sm:px-10 h-screen w-full sm:grid sm:place-item-center">
           <div className="flex justify-between items-center flex-wrap-reverse gap-10">
             <div className="max-w-sm">
               <h2 className="text-xl font-semibold md:text-3xl md:leading-snug lg:text-4xl lg:leading-snug text-black/90">Selamat Datang di </h2>
@@ -115,7 +115,7 @@ const App: React.FC = () => {
             <img src={LOGO_UPB} alt="Logo Universitas Pelita Bangsa" title="Logo Universitas Pelita Bangsa" className="w-[200px] lg:w-[300px] m-auto " />
           </div>
         </section>
-        <section className="py-12 px-6 sm:px-10 flex flex-col gap-5" ref={visiMisiRef}>
+        <section className="py-12 px-6 sm:px-10 flex flex-col gap-5 mb-16" ref={visiMisiRef}>
           <div className="flex flex-col justify-start border-b-4 pb-2 w-max border-gray-200 " data-aos="fade-up">
             <h1 className="text-lg font-bold md:text-xl lg:text-3xl text-center md:text-left ">Kenali Visi dan Misi Jayasampurna</h1>
           </div>
@@ -140,7 +140,7 @@ const App: React.FC = () => {
             </div>
           </div>
         </section>
-        <section className="py-12 px-6 sm:px-10">
+        <section className="py-12 px-6 sm:px-10 mb-16">
           <div className="flex gap-5 items-center">
             <h1 className="text-2xl font-bold md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">Ayo Membaca</h1>
             <img src={HIGIF} alt="jayasampurna" className="w-10" />
@@ -290,7 +290,7 @@ const App: React.FC = () => {
             </Tabs>
           </div>
         </section>
-        <section className="py-12 px-6 sm:px-10 flex flex-col gap-10" ref={lokasiRef}>
+        <section className="py-12 px-6 sm:px-10 flex flex-col gap-10 mb-16" ref={lokasiRef}>
           <h1 className="text-2xl font-bold md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">Lokasi</h1>
           <div>
             <iframe

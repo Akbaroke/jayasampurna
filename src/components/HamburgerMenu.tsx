@@ -1,4 +1,4 @@
-import { useDisclosure } from '@mantine/hooks';
+import { useClickOutside, useDisclosure } from '@mantine/hooks';
 import { Burger, Menu } from '@mantine/core';
 
 interface Props {
@@ -11,9 +11,13 @@ interface Props {
 
 function HamburgerMenu({ scrollToHome, scrollToVisiMisi, scrollToBukuFiksi, scrollToBukuNonFiksi, scrollToLokasi }: Props) {
   const [opened, { toggle }] = useDisclosure(false);
+  const ref = useClickOutside(() => {
+    opened && toggle();
+  });
+
   return (
-    <div className="sm:hidden">
-      <Menu shadow="md" width={200}>
+    <div className="sm:hidden" ref={ref}>
+      <Menu shadow="md" width={200} opened={opened}>
         <Menu.Target>
           <Burger opened={opened} onClick={toggle} />
         </Menu.Target>
