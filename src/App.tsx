@@ -5,19 +5,22 @@ import HIGIF from './assets/Hi.gif';
 import Container from './components/Container';
 import fiksiBooks from './data/fiksi.json';
 import nonFiksiBooks from './data/non-fiksi.json';
-import { Tabs, SimpleGrid, Accordion } from '@mantine/core';
+import { Tabs, SimpleGrid, Accordion, Menu } from '@mantine/core';
 import ButtonScrolltoTop from './components/ButtonScrolltoTop';
-import { useWindowScroll } from '@mantine/hooks';
+import { useDisclosure, useWindowScroll } from '@mantine/hooks';
 import HamburgerMenu from './components/HamburgerMenu';
 import { TypeAnimation } from 'react-type-animation';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Card, { PropsCard } from './components/Card';
+import LOGO_UPB from './assets/upb.png';
 
 const App: React.FC = () => {
   const [scroll, scrollTo] = useWindowScroll();
+  const [, { toggle }] = useDisclosure(false);
   const visiMisiRef = React.useRef<HTMLDivElement | null>(null);
-  const bacaBukuRef = React.useRef<HTMLDivElement | null>(null);
+  const bukuFiksiRef = React.useRef<HTMLDivElement | null>(null);
+  const bukuNonFiksiRef = React.useRef<HTMLDivElement | null>(null);
   const lokasiRef = React.useRef<HTMLDivElement | null>(null);
 
   React.useEffect(() => {
@@ -38,9 +41,15 @@ const App: React.FC = () => {
       scrollTo({ y: scrollY });
     }
   };
-  const scrollToBacaBuku = () => {
-    if (bacaBukuRef.current) {
-      const scrollY = bacaBukuRef.current.getBoundingClientRect().top + window.scrollY - 50;
+  const scrollToBukuFiksi = () => {
+    if (bukuFiksiRef.current) {
+      const scrollY = bukuFiksiRef.current.getBoundingClientRect().top + window.scrollY - 100;
+      scrollTo({ y: scrollY });
+    }
+  };
+  const scrollToBukuNonFiksi = () => {
+    if (bukuNonFiksiRef.current) {
+      const scrollY = bukuNonFiksiRef.current.getBoundingClientRect().top + window.scrollY - 100;
       scrollTo({ y: scrollY });
     }
   };
@@ -53,34 +62,49 @@ const App: React.FC = () => {
 
   return (
     <>
-      <nav className="py-5 px-7 sm:px-10 border-b sticky top-0 bg-white/70 backdrop-blur-md z-50">
+      <nav className="py-5 px-5 sm:px-10 border-b sticky top-0 bg-white/70 backdrop-blur-md z-50">
         <Container className="flex justify-between items-center">
-          <div className="flex items-center gap-2 cursor-pointer" onClick={() => location.reload()}>
+          <div className="flex items-center gap-3 cursor-pointer" onClick={() => location.reload()}>
             <img src={LOGO} alt="Logo Kabupaten Bekasi" width={40} />
-            <h1 className="font-semibold text-xl">Jayasampurna</h1>
+            <h1 className="font-semibold text-lg">Perpustakaan Digital</h1>
           </div>
           <div className="sm:flex gap-10 text-[14px] [&>p]:cursor-pointer hidden">
             <p onClick={scrollToHome}>Home</p>
             <p onClick={scrollToVisiMisi}>Visi & Misi</p>
-            <p onClick={scrollToBacaBuku}>Baca Buku</p>
+            <div>
+              <Menu shadow="md" width={200}>
+                <Menu.Target>
+                  <p onClick={toggle} className="cursor-pointer ">
+                    Baca Buku
+                  </p>
+                </Menu.Target>
+
+                <Menu.Dropdown onClick={toggle}>
+                  <Menu.Label>Kategori Buku</Menu.Label>
+                  <Menu.Item onClick={scrollToBukuFiksi}>• Fiksi</Menu.Item>
+                  <Menu.Item onClick={scrollToBukuNonFiksi}>• Non-FIksi</Menu.Item>
+                </Menu.Dropdown>
+              </Menu>
+            </div>
             <p onClick={scrollToLokasi}>Lokasi</p>
           </div>
-          <HamburgerMenu scrollToHome={scrollToHome} scrollToVisiMisi={scrollToVisiMisi} scrollToBacaBuku={scrollToBacaBuku} scrollToLokasi={scrollToLokasi} />
+          <HamburgerMenu scrollToHome={scrollToHome} scrollToVisiMisi={scrollToVisiMisi} scrollToBukuFiksi={scrollToBukuFiksi} scrollToBukuNonFiksi={scrollToBukuNonFiksi} scrollToLokasi={scrollToLokasi} />
         </Container>
       </nav>
-      <Container className="flex flex-col gap-10">
-        <section className="py-12 px-7 sm:px-10 flex justify-between items-center flex-wrap gap-20">
-          <div>
+      <Container className="flex flex-col gap-20">
+        <section className="py-12 px-6 sm:px-10 h-screen md:h-max">
+          <div className="flex justify-between items-center flex-wrap-reverse gap-10">
             <div className="max-w-sm">
-              <h1 className="text-3xl font-bold md:text-5xl md:leading-snug lg:text-6xl lg:leading-snug">Selamat Datang di Jayasampurna</h1>
-              <p className="mt-10 leading-relaxed text-gray-600 md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
+              <h2 className="text-xl font-semibold md:text-3xl md:leading-snug lg:text-4xl lg:leading-snug text-black/90">Selamat Datang di </h2>
+              <h1 className="text-2xl font-bold md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">Perpustakaan Digital Desa Jayasampurna</h1>
+              <p className="mt-10 leading-relaxed text-md text-gray-600 md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
                 <TypeAnimation
                   sequence={[
-                    'Jayasampurna adalah sebuah kelurahan di kecamatan Serang Baru, Kab Bekasi, Jawa Barat, Indonesia.',
+                    'Perpustakaan digital ini merupakan hasil program kerja Mahasiswa KKN Universitas Pelita Bangsa tahun 2023.',
                     2000,
                     '',
                     1000,
-                    'Jayasampurna adalah sebuah kelurahan di kecamatan Serang Baru, Kab Bekasi, Jawa Barat, Indonesia.',
+                    'Perpustakaan digital ini merupakan hasil program kerja Mahasiswa KKN Universitas Pelita Bangsa tahun 2023.',
                     2000,
                   ]}
                   cursor={true}
@@ -88,26 +112,19 @@ const App: React.FC = () => {
                 />
               </p>
             </div>
-            <div className="flex pt-6 space-x-6 md:space-x-8 lg:pt-12">
-              <div className="p-7 space-y-3 transition md:p-8 lg:p-10 lg:space-y-6 rounded-[2rem] bg-neutral-100 hover:bg-neutral-200">
-                <h2 className="text-2xl font-medium lg:text-3xl">±18 rb</h2> <p className="text-sm md:text-base lg:text-lg">Total penduduk</p>
-              </div>{' '}
-              <div className="p-7 space-y-3 transition md:p-8 lg:p-10 lg:space-y-6 rounded-[2rem] bg-neutral-100 hover:bg-neutral-200">
-                <h2 className="text-2xl font-medium lg:text-3xl">32 °C</h2> <p className="text-sm md:text-base lg:text-lg">Suhu Rata-rata</p>
-              </div>
-            </div>
+            <img src={LOGO_UPB} alt="Logo Universitas Pelita Bangsa" title="Logo Universitas Pelita Bangsa" className="w-[200px] lg:w-[300px] m-auto " />
           </div>
-          <img src={FOTO_HERO} alt="Logo Kabupaten Bekasi" className="rounded-3xl lg:max-w-[400px] xl:max-w-[500px] w-full m-auto " />
         </section>
-        <section className="py-12 px-7 sm:px-10 flex flex-col gap-10" ref={visiMisiRef}>
-          <h1 className="text-xl font-bold md:text-2xl md:leading-snug lg:text-4xl lg:leading-snug text-center md:text-left" data-aos="fade-up">
-            Kenali Visi dan Misi Jayasampurna
-          </h1>
+        <section className="py-12 px-6 sm:px-10 flex flex-col gap-5" ref={visiMisiRef}>
+          <div className="flex flex-col justify-start border-b-4 pb-2 w-max border-gray-200 " data-aos="fade-up">
+            <h1 className="text-lg font-bold md:text-xl lg:text-3xl text-center md:text-left ">Kenali Visi dan Misi Jayasampurna</h1>
+          </div>
+          <img src={FOTO_HERO} alt="Foto Desa Jayasampurna" title="Foto Desa Jayasampurna" className="rounded-3xl xl:max-w-[800px] w-full m-auto " />
           <div className="flex flex-col gap-3" data-aos="fade-right">
             <h1 className="font-semibold text-lg md:text-xl">Visi</h1>
             <p className="leading-relaxed text-gray-600 md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">"Terwujudnya masyarakat desa jayasampurna yang berakhlak mulia, sehat, cerdas dan sejahtera."</p>
           </div>
-          <div className="flex flex-col gap-3" data-aos="fade-left">
+          <div className="flex flex-col gap-3 mt-3" data-aos="fade-left">
             <h1 className="font-semibold text-lg md:text-xl">Misi</h1>
             <div className="pl-5">
               <ul className="list-disc flex flex-col gap-3 leading-relaxed text-gray-600 md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
@@ -123,13 +140,13 @@ const App: React.FC = () => {
             </div>
           </div>
         </section>
-        <section className="py-12 px-7 sm:px-10" ref={bacaBukuRef}>
+        <section className="py-12 px-6 sm:px-10">
           <div className="flex gap-5 items-center">
             <h1 className="text-2xl font-bold md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">Ayo Membaca</h1>
             <img src={HIGIF} alt="jayasampurna" className="w-10" />
           </div>
           <div className="mt-10 flex flex-col gap-10">
-            <Tabs keepMounted={false} defaultValue="0" variant="pills" radius="md" color="gray">
+            <Tabs keepMounted={false} defaultValue="0" variant="pills" radius="md" color="gray" ref={bukuFiksiRef}>
               <div className="border rounded-lg">
                 <div className="p-5 border-b bg-gray-100">
                   <h1 className="font-semibold capitalize text-lg">Fiksi :</h1>
@@ -160,7 +177,7 @@ const App: React.FC = () => {
               ))}
             </Tabs>
 
-            <Tabs keepMounted={false} defaultValue="0" variant="pills" radius="md" color="gray">
+            <Tabs keepMounted={false} defaultValue="0" variant="pills" radius="md" color="gray" ref={bukuNonFiksiRef}>
               <div className="border rounded-lg">
                 <div className="p-5 border-b bg-gray-100">
                   <h1 className="font-semibold capitalize text-lg">Non-Fiksi :</h1>
@@ -273,7 +290,7 @@ const App: React.FC = () => {
             </Tabs>
           </div>
         </section>
-        <section className="py-12 px-7 sm:px-10 flex flex-col gap-10" ref={lokasiRef}>
+        <section className="py-12 px-6 sm:px-10 flex flex-col gap-10" ref={lokasiRef}>
           <h1 className="text-2xl font-bold md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">Lokasi</h1>
           <div>
             <iframe
@@ -288,7 +305,7 @@ const App: React.FC = () => {
         </section>
       </Container>
       <footer className="border-t bg-white/70 backdrop-blur-md mt-10">
-        <Container className="flex flex-wrap justify-between items-center gap-5 py-5 px-7 sm:px-10 ">
+        <Container className="flex flex-wrap justify-between items-center gap-5 py-5 px-6 sm:px-10 ">
           <div className="flex items-center gap-2">
             <img src={LOGO} alt="Logo Kabupaten Bekasi" width={40} />
             <h1 className="font-semibold text-xl">Jayasampurna</h1>
