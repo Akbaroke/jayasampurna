@@ -29,7 +29,7 @@ const App: React.FC = () => {
   const bukuFiksiRef = React.useRef<HTMLDivElement | null>(null);
   const bukuNonFiksiRef = React.useRef<HTMLDivElement | null>(null);
   const lokasiRef = React.useRef<HTMLDivElement | null>(null);
-  const autoplay = React.useRef(Autoplay({ delay: 2000 }));
+  const autoplay = React.useRef(Autoplay({ delay: 3000 }));
 
   React.useEffect(() => {
     AOS.init({
@@ -151,27 +151,26 @@ const App: React.FC = () => {
           <div className="flex flex-col justify-start border-b-4 pb-2 w-max border-gray-200 " data-aos="fade-up">
             <h1 className="text-lg font-bold md:text-xl lg:text-3xl text-center md:text-left ">Galeri Perpustakaan</h1>
           </div>
-          <div>
-            <Carousel nextControlIcon={<IoIosArrowForward />} previousControlIcon={<IoIosArrowBack />} loop plugins={[autoplay.current]}>
+          <div data-aos="fade-up">
+            <Carousel
+              nextControlIcon={<IoIosArrowForward className="text-white" />}
+              previousControlIcon={<IoIosArrowBack className="text-white" />}
+              controlsOffset="xl"
+              controlSize={40}
+              loop
+              plugins={[autoplay.current]}
+              className="w-full h-[400px] bg-gray-100 rounded-3xl overflow-hidden">
               <Carousel.Slide>
-                <div className="w-full h-[400px] bg-gray-100 rounded-3xl">
-                  <img src={GALERI_1} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
-                </div>
+                <img src={GALERI_1} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
               </Carousel.Slide>
               <Carousel.Slide>
-                <div className="w-full h-[400px] bg-gray-100 rounded-3xl">
-                  <img src={GALERI_2} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
-                </div>
+                <img src={GALERI_2} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
               </Carousel.Slide>
               <Carousel.Slide>
-                <div className="w-full h-[400px] bg-gray-100 rounded-3xl">
-                  <img src={GALERI_3} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
-                </div>
+                <img src={GALERI_3} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
               </Carousel.Slide>
               <Carousel.Slide>
-                <div className="w-full h-[400px] bg-gray-100 rounded-3xl">
-                  <img src={GALERI_4} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
-                </div>
+                <img src={GALERI_4} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
               </Carousel.Slide>
             </Carousel>
           </div>
