@@ -14,6 +14,13 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Card, { PropsCard } from './components/Card';
 import LOGO_UPB from './assets/upb.png';
+import { Carousel } from '@mantine/carousel';
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
+import Autoplay from 'embla-carousel-autoplay';
+import GALERI_1 from './assets/1.jpg';
+import GALERI_2 from './assets/2.jpg';
+import GALERI_3 from './assets/3.jpg';
+import GALERI_4 from './assets/4.jpg';
 
 const App: React.FC = () => {
   const [scroll, scrollTo] = useWindowScroll();
@@ -22,6 +29,7 @@ const App: React.FC = () => {
   const bukuFiksiRef = React.useRef<HTMLDivElement | null>(null);
   const bukuNonFiksiRef = React.useRef<HTMLDivElement | null>(null);
   const lokasiRef = React.useRef<HTMLDivElement | null>(null);
+  const autoplay = React.useRef(Autoplay({ delay: 2000 }));
 
   React.useEffect(() => {
     AOS.init({
@@ -78,7 +86,6 @@ const App: React.FC = () => {
                     Baca Buku
                   </p>
                 </Menu.Target>
-
                 <Menu.Dropdown onClick={toggle}>
                   <Menu.Label>Kategori Buku</Menu.Label>
                   <Menu.Item onClick={scrollToBukuFiksi}>• Fiksi</Menu.Item>
@@ -100,11 +107,11 @@ const App: React.FC = () => {
               <p className="mt-10 leading-relaxed text-md text-gray-600 md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
                 <TypeAnimation
                   sequence={[
-                    'Perpustakaan digital ini merupakan hasil program kerja Mahasiswa KKN Universitas Pelita Bangsa tahun 2023.',
+                    'Perpustakaan digital ini merupakan hasil program kerja mahasiswa KKN Universitas Pelita Bangsa tahun 2023 untuk mendukung perpustakaan dan taman baca yang sudah ada di desa Jayasampurna.',
                     2000,
                     '',
-                    1000,
-                    'Perpustakaan digital ini merupakan hasil program kerja Mahasiswa KKN Universitas Pelita Bangsa tahun 2023.',
+                    500,
+                    'Perpustakaan digital ini merupakan hasil program kerja mahasiswa KKN Universitas Pelita Bangsa tahun 2023 untuk mendukung perpustakaan dan taman baca yang sudah ada di desa Jayasampurna.',
                     2000,
                   ]}
                   cursor={true}
@@ -112,12 +119,12 @@ const App: React.FC = () => {
                 />
               </p>
             </div>
-            <img src={LOGO_UPB} alt="Logo Universitas Pelita Bangsa" title="Logo Universitas Pelita Bangsa" className="w-[200px] lg:w-[300px] m-auto " />
+            <img src={LOGO_UPB} alt="Logo Universitas Pelita Bangsa" title="Logo Universitas Pelita Bangsa" className="w-[110px] lg:w-[210px] m-auto" />
           </div>
         </section>
         <section className="py-12 px-6 sm:px-10 flex flex-col gap-5 mb-16" ref={visiMisiRef}>
           <div className="flex flex-col justify-start border-b-4 pb-2 w-max border-gray-200 " data-aos="fade-up">
-            <h1 className="text-lg font-bold md:text-xl lg:text-3xl text-center md:text-left ">Kenali Visi dan Misi Jayasampurna</h1>
+            <h1 className="text-lg font-bold md:text-xl lg:text-3xl text-center md:text-left ">Kenali Visi dan Misi Desa Jayasampurna</h1>
           </div>
           <img src={FOTO_HERO} alt="Foto Desa Jayasampurna" title="Foto Desa Jayasampurna" className="rounded-3xl xl:max-w-[800px] w-full m-auto " />
           <div className="flex flex-col gap-3" data-aos="fade-right">
@@ -128,10 +135,10 @@ const App: React.FC = () => {
             <h1 className="font-semibold text-lg md:text-xl">Misi</h1>
             <div className="pl-5">
               <ul className="list-disc flex flex-col gap-3 leading-relaxed text-gray-600 md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
-                <li>Meningkatkan kualitas kehidupan beragama dalam mewujudkan masyarakat jayasampurna yang beriman dan bertaqwa melalui penempatan agama sebagai sumber motivasi dan inspirasi</li>
+                <li>Meningkatkan kualitas kehidupan beragama dalam mewujudkan masyarakat desa jayasampurna yang beriman dan bertaqwa melalui penempatan agama sebagai sumber motivasi dan inspirasi</li>
                 <li>Meningkatkan profesionalisme perangkat desa sebagai pelayanan masyarakat</li>
                 <li>Meningkatkan komunikasi dengan segenap komponen masyarakat</li>
-                <li>Meningkatkan pemberdayaan masyarakat dari seluruh kekuatan ekonomi, social, budaya, pertahanan dan keamanan</li>
+                <li>Meningkatkan pemberdayaan masyarakat dari seluruh kekuatan ekonomi, sosial, budaya, pertahanan dan keamanan</li>
                 <li>Meningkatkan pelayanan kesehatan melalui sadar kebersihan, cepat tanggap untuk berobat dan Peningkatan Pendidikan dengan tuntas wajib belajar</li>
                 <li>Meningkatkan potensi pertanian sebaga sumber pendapatan utama masyarakat</li>
                 <li>Meningkatkan pembangunan guna percepatan pertumbuhan ekonomi melalui perbaikan sarana dan prasarana umum</li>
@@ -140,9 +147,38 @@ const App: React.FC = () => {
             </div>
           </div>
         </section>
+        <section className="py-12 px-6 sm:px-10 flex flex-col gap-5 mb-16">
+          <div className="flex flex-col justify-start border-b-4 pb-2 w-max border-gray-200 " data-aos="fade-up">
+            <h1 className="text-lg font-bold md:text-xl lg:text-3xl text-center md:text-left ">Galeri Perpustakaan</h1>
+          </div>
+          <div>
+            <Carousel nextControlIcon={<IoIosArrowForward />} previousControlIcon={<IoIosArrowBack />} loop plugins={[autoplay.current]}>
+              <Carousel.Slide>
+                <div className="w-full h-[400px] bg-gray-100 rounded-3xl">
+                  <img src={GALERI_1} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
+                </div>
+              </Carousel.Slide>
+              <Carousel.Slide>
+                <div className="w-full h-[400px] bg-gray-100 rounded-3xl">
+                  <img src={GALERI_2} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
+                </div>
+              </Carousel.Slide>
+              <Carousel.Slide>
+                <div className="w-full h-[400px] bg-gray-100 rounded-3xl">
+                  <img src={GALERI_3} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
+                </div>
+              </Carousel.Slide>
+              <Carousel.Slide>
+                <div className="w-full h-[400px] bg-gray-100 rounded-3xl">
+                  <img src={GALERI_4} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
+                </div>
+              </Carousel.Slide>
+            </Carousel>
+          </div>
+        </section>
         <section className="py-12 px-6 sm:px-10 mb-16">
           <div className="flex gap-5 items-center">
-            <h1 className="text-2xl font-bold md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">Ayo Membaca</h1>
+            <h1 className="text-xl font-bold md:text-2xl md:leading-snug lg:text-3xl lg:leading-snug">Ayo Membaca</h1>
             <img src={HIGIF} alt="jayasampurna" className="w-10" />
           </div>
           <div className="mt-10 flex flex-col gap-10">
@@ -308,11 +344,11 @@ const App: React.FC = () => {
         <Container className="flex flex-wrap justify-between items-center gap-5 py-5 px-6 sm:px-10 ">
           <div className="flex items-center gap-2">
             <img src={LOGO} alt="Logo Kabupaten Bekasi" width={40} />
-            <h1 className="font-semibold text-xl">Jayasampurna</h1>
+            <h1 className="font-semibold text-xl">Desa Jayasampurna</h1>
           </div>
         </Container>
         <Container className="pt-4 px-7 pb-7 sm:px-10 font-medium text-[12px] sm:text-[14px] flex gap-1 flex-wrap justify-center">
-          <p>&copy; 2023 Jayasampurna.</p>
+          <p>&copy; 2023 Desa Jayasampurna.</p>
           <p>KKN Universitas Pelita Bangsa 2023</p>
         </Container>
       </footer>
