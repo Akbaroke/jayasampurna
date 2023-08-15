@@ -9,14 +9,13 @@ import { Tabs, SimpleGrid, Accordion, Menu } from '@mantine/core';
 import ButtonScrolltoTop from './components/ButtonScrolltoTop';
 import { useDisclosure, useWindowScroll } from '@mantine/hooks';
 import HamburgerMenu from './components/HamburgerMenu';
-import { TypeAnimation } from 'react-type-animation';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Card, { PropsCard } from './components/Card';
-import LOGO_UPB from './assets/upb.png';
-import { Carousel } from '@mantine/carousel';
-import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
-import Autoplay from 'embla-carousel-autoplay';
+import FOTOKKN_UPB from './assets/foto-perpus-hero.png';
+// import { Carousel } from '@mantine/carousel';
+// import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
+// import Autoplay from 'embla-carousel-autoplay';
 import GALERI_1 from './assets/1.jpg';
 import GALERI_2 from './assets/2.jpg';
 import GALERI_3 from './assets/3.jpg';
@@ -29,7 +28,6 @@ const App: React.FC = () => {
   const bukuFiksiRef = React.useRef<HTMLDivElement | null>(null);
   const bukuNonFiksiRef = React.useRef<HTMLDivElement | null>(null);
   const lokasiRef = React.useRef<HTMLDivElement | null>(null);
-  const autoplay = React.useRef(Autoplay({ delay: 3000 }));
 
   React.useEffect(() => {
     AOS.init({
@@ -99,27 +97,16 @@ const App: React.FC = () => {
         </Container>
       </nav>
       <Container className="flex flex-col">
-        <section className="py-12 px-6 sm:px-10 h-screen w-full sm:grid sm:place-item-center">
-          <div className="flex justify-between items-center flex-wrap-reverse gap-10">
+        <section className="py-0 px-6 sm:px-10 h-screen w-full flex justify-center items-center sm:grid sm:place-items-center">
+          <div className="flex justify-between items-center flex-wrap-reverse gap-5">
             <div className="max-w-sm">
               <h2 className="text-xl font-semibold md:text-3xl md:leading-snug lg:text-4xl lg:leading-snug text-black/90">Selamat Datang di </h2>
               <h1 className="text-2xl font-bold md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">Perpustakaan Digital Desa Jayasampurna</h1>
-              <p className="mt-10 leading-relaxed text-md text-gray-600 md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
-                <TypeAnimation
-                  sequence={[
-                    'Perpustakaan digital ini merupakan hasil program kerja mahasiswa KKN Universitas Pelita Bangsa tahun 2023 untuk mendukung perpustakaan dan taman baca yang sudah ada di desa Jayasampurna.',
-                    2000,
-                    '',
-                    500,
-                    'Perpustakaan digital ini merupakan hasil program kerja mahasiswa KKN Universitas Pelita Bangsa tahun 2023 untuk mendukung perpustakaan dan taman baca yang sudah ada di desa Jayasampurna.',
-                    2000,
-                  ]}
-                  cursor={true}
-                  repeat={Infinity}
-                />
+              <p className="mt-7 sm:mt-10 leading-relaxed text-md text-gray-600 md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
+                Perpustakaan digital ini merupakan hasil program kerja mahasiswa KKN Universitas Pelita Bangsa tahun 2023 untuk mendukung perpustakaan dan taman baca yang sudah ada di desa Jayasampurna.
               </p>
             </div>
-            <img src={LOGO_UPB} alt="Logo Universitas Pelita Bangsa" title="Logo Universitas Pelita Bangsa" className="w-[110px] lg:w-[210px] m-auto" />
+            <img src={FOTOKKN_UPB} alt="KKN Universitas Pelita Bangsa" title="KKN Universitas Pelita Bangsa" className="max-w-[300px] m-auto" />
           </div>
         </section>
         <section className="py-12 px-6 sm:px-10 flex flex-col gap-5 mb-16" ref={visiMisiRef}>
@@ -147,32 +134,21 @@ const App: React.FC = () => {
             </div>
           </div>
         </section>
-        <section className="py-12 px-6 sm:px-10 flex flex-col gap-5 mb-16">
+        <section className="py-12 px-6 sm:px-10 flex flex-col gap-3 mb-16">
           <div className="flex flex-col justify-start border-b-4 pb-2 w-max border-gray-200 " data-aos="fade-up">
             <h1 className="text-lg font-bold md:text-xl lg:text-3xl text-center md:text-left ">Galeri Perpustakaan</h1>
           </div>
-          <div data-aos="fade-up">
-            <Carousel
-              nextControlIcon={<IoIosArrowForward className="text-white" />}
-              previousControlIcon={<IoIosArrowBack className="text-white" />}
-              controlsOffset="xl"
-              controlSize={40}
-              loop
-              plugins={[autoplay.current]}
-              className="w-full h-[400px] bg-gray-100 rounded-3xl overflow-hidden">
-              <Carousel.Slide>
-                <img src={GALERI_1} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
-              </Carousel.Slide>
-              <Carousel.Slide>
-                <img src={GALERI_2} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
-              </Carousel.Slide>
-              <Carousel.Slide>
-                <img src={GALERI_3} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
-              </Carousel.Slide>
-              <Carousel.Slide>
-                <img src={GALERI_4} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill" />
-              </Carousel.Slide>
-            </Carousel>
+          <div data-aos="fade-up" className="sm:p-10 p-2">
+            <SimpleGrid
+              breakpoints={[
+                { minWidth: 0, cols: 2, spacing: 15, verticalSpacing: 15 },
+                { minWidth: 'sm', cols: 2, spacing: 30, verticalSpacing: 30 },
+              ]}>
+              <img src={GALERI_1} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill rounded-tl-[30px] sm:rounded-tl-[50px] shadow-md hover:scale-105 transition-all duration-500 hover:rounded-lg hover:shadow-xl" />
+              <img src={GALERI_4} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill rounded-tr-[30px] sm:rounded-tr-[50px] shadow-md hover:scale-105 transition-all duration-500 hover:rounded-lg hover:shadow-xl" />
+              <img src={GALERI_2} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill rounded-bl-[30px] sm:rounded-bl-[50px] shadow-md hover:scale-105 transition-all duration-500 hover:rounded-lg hover:shadow-xl" />
+              <img src={GALERI_3} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill rounded-br-[30px] sm:rounded-br-[50px] shadow-md hover:scale-105 transition-all duration-500 hover:rounded-lg hover:shadow-xl" />
+            </SimpleGrid>
           </div>
         </section>
         <section className="py-12 px-6 sm:px-10 mb-16">
