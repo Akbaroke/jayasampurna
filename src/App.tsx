@@ -13,9 +13,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Card, { PropsCard } from './components/Card';
 import FOTOKKN_UPB from './assets/foto-perpus-hero.png';
-// import { Carousel } from '@mantine/carousel';
-// import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
-// import Autoplay from 'embla-carousel-autoplay';
 import GALERI_1 from './assets/1.jpg';
 import GALERI_2 from './assets/2.jpg';
 import GALERI_3 from './assets/3.jpg';
@@ -25,6 +22,7 @@ const App: React.FC = () => {
   const [scroll, scrollTo] = useWindowScroll();
   const [, { toggle }] = useDisclosure(false);
   const visiMisiRef = React.useRef<HTMLDivElement | null>(null);
+  const galeriRef = React.useRef<HTMLDivElement | null>(null);
   const bukuFiksiRef = React.useRef<HTMLDivElement | null>(null);
   const bukuNonFiksiRef = React.useRef<HTMLDivElement | null>(null);
   const lokasiRef = React.useRef<HTMLDivElement | null>(null);
@@ -44,6 +42,12 @@ const App: React.FC = () => {
   const scrollToVisiMisi = () => {
     if (visiMisiRef.current) {
       const scrollY = visiMisiRef.current.getBoundingClientRect().top + window.scrollY - 50;
+      scrollTo({ y: scrollY });
+    }
+  };
+  const scrollToGaleri = () => {
+    if (galeriRef.current) {
+      const scrollY = galeriRef.current.getBoundingClientRect().top + window.scrollY - 50;
       scrollTo({ y: scrollY });
     }
   };
@@ -68,7 +72,7 @@ const App: React.FC = () => {
 
   return (
     <>
-      <nav className="py-5 px-5 sm:px-10 border-b sticky top-0 bg-white/70 backdrop-blur-md z-50">
+      <nav className="py-5 px-5 sm:px-10 border-b fixed top-0 right-0 left-0 bg-white/70 backdrop-blur-md z-50">
         <Container className="flex justify-between items-center">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => location.reload()}>
             <img src={LOGO} alt="Logo Kabupaten Bekasi" width={40} />
@@ -77,6 +81,7 @@ const App: React.FC = () => {
           <div className="sm:flex gap-10 text-[14px] [&>p]:cursor-pointer hidden">
             <p onClick={scrollToHome}>Home</p>
             <p onClick={scrollToVisiMisi}>Visi & Misi</p>
+            <p onClick={scrollToGaleri}>Galeri</p>
             <div>
               <Menu shadow="md" width={200}>
                 <Menu.Target>
@@ -93,25 +98,23 @@ const App: React.FC = () => {
             </div>
             <p onClick={scrollToLokasi}>Lokasi</p>
           </div>
-          <HamburgerMenu scrollToHome={scrollToHome} scrollToVisiMisi={scrollToVisiMisi} scrollToBukuFiksi={scrollToBukuFiksi} scrollToBukuNonFiksi={scrollToBukuNonFiksi} scrollToLokasi={scrollToLokasi} />
+          <HamburgerMenu scrollToHome={scrollToHome} scrollToGaleri={scrollToGaleri} scrollToVisiMisi={scrollToVisiMisi} scrollToBukuFiksi={scrollToBukuFiksi} scrollToBukuNonFiksi={scrollToBukuNonFiksi} scrollToLokasi={scrollToLokasi} />
         </Container>
       </nav>
-      <Container className="flex flex-col">
-        <section className="py-0 px-6 sm:px-10 h-screen w-full flex justify-center items-center sm:grid sm:place-items-center">
-          <div className="flex justify-between items-center flex-wrap-reverse gap-5">
-            <div className="max-w-sm">
-              <h2 className="text-xl font-semibold md:text-3xl md:leading-snug lg:text-4xl lg:leading-snug text-black/90">Selamat Datang di </h2>
-              <h1 className="text-2xl font-bold md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">Perpustakaan Digital Desa Jayasampurna</h1>
-              <p className="mt-7 sm:mt-10 leading-relaxed text-md text-gray-600 md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
-                Perpustakaan digital ini merupakan hasil program kerja mahasiswa KKN Universitas Pelita Bangsa tahun 2023 untuk mendukung perpustakaan dan taman baca yang sudah ada di desa Jayasampurna.
-              </p>
-            </div>
-            <img src={FOTOKKN_UPB} alt="KKN Universitas Pelita Bangsa" title="KKN Universitas Pelita Bangsa" className="max-w-[300px] m-auto" />
+      <Container className="flex flex-col pt-10 mt-3 sm:mt-0">
+        <section className="py-10 px-6 sm:px-10 md:h-screen h-auto w-full flex justify-center sm:justify-between items-center flex-wrap-reverse gap-3">
+          <div className="max-w-sm">
+            <h2 className="text-xl font-semibold md:text-3xl md:leading-snug lg:text-4xl lg:leading-snug text-black/90">Selamat Datang di </h2>
+            <h1 className="text-2xl font-bold md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">Perpustakaan Digital Desa Jayasampurna</h1>
+            <p className="mt-7 sm:mt-10 leading-relaxed text-md text-gray-600 md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
+              Perpustakaan digital ini merupakan hasil program kerja mahasiswa KKN Universitas Pelita Bangsa tahun 2023 untuk mendukung perpustakaan dan taman baca yang sudah ada di desa Jayasampurna.
+            </p>
           </div>
+          <img src={FOTOKKN_UPB} alt="KKN Universitas Pelita Bangsa" title="KKN Universitas Pelita Bangsa" className="w-full sm:max-w-[500px]" />
         </section>
         <section className="py-12 px-6 sm:px-10 flex flex-col gap-5 mb-16" ref={visiMisiRef}>
           <div className="flex flex-col justify-start border-b-4 pb-2 w-max border-gray-200 " data-aos="fade-up">
-            <h1 className="text-lg font-bold md:text-xl lg:text-3xl text-center md:text-left ">Kenali Visi dan Misi Desa Jayasampurna</h1>
+            <h1 className="text-lg font-bold md:text-xl lg:text-3xl text-center md:text-left ">Visi dan Misi Desa Jayasampurna</h1>
           </div>
           <img src={FOTO_HERO} alt="Foto Desa Jayasampurna" title="Foto Desa Jayasampurna" className="rounded-3xl xl:max-w-[800px] w-full m-auto " />
           <div className="flex flex-col gap-3" data-aos="fade-right">
@@ -134,7 +137,7 @@ const App: React.FC = () => {
             </div>
           </div>
         </section>
-        <section className="py-12 px-6 sm:px-10 flex flex-col gap-3 mb-16">
+        <section className="py-12 px-6 sm:px-10 flex flex-col gap-3 mb-16" ref={galeriRef}>
           <div className="flex flex-col justify-start border-b-4 pb-2 w-max border-gray-200 " data-aos="fade-up">
             <h1 className="text-lg font-bold md:text-xl lg:text-3xl text-center md:text-left ">Galeri Perpustakaan</h1>
           </div>
@@ -144,10 +147,18 @@ const App: React.FC = () => {
                 { minWidth: 0, cols: 2, spacing: 15, verticalSpacing: 15 },
                 { minWidth: 'sm', cols: 2, spacing: 30, verticalSpacing: 30 },
               ]}>
-              <img src={GALERI_1} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill rounded-tl-[30px] sm:rounded-tl-[50px] shadow-md hover:scale-105 transition-all duration-500 hover:rounded-lg hover:shadow-xl" />
-              <img src={GALERI_4} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill rounded-tr-[30px] sm:rounded-tr-[50px] shadow-md hover:scale-105 transition-all duration-500 hover:rounded-lg hover:shadow-xl" />
-              <img src={GALERI_2} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill rounded-bl-[30px] sm:rounded-bl-[50px] shadow-md hover:scale-105 transition-all duration-500 hover:rounded-lg hover:shadow-xl" />
-              <img src={GALERI_3} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill rounded-br-[30px] sm:rounded-br-[50px] shadow-md hover:scale-105 transition-all duration-500 hover:rounded-lg hover:shadow-xl" />
+              <a href={GALERI_1} target="_self">
+                <img src={GALERI_1} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill rounded-tl-[30px] sm:rounded-tl-[50px] shadow-md hover:scale-105 transition-all duration-500 hover:rounded-lg hover:shadow-xl" />
+              </a>
+              <a href={GALERI_4} target="_self">
+                <img src={GALERI_4} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill rounded-tr-[30px] sm:rounded-tr-[50px] shadow-md hover:scale-105 transition-all duration-500 hover:rounded-lg hover:shadow-xl" />
+              </a>
+              <a href={GALERI_2} target="_self">
+                <img src={GALERI_2} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill rounded-bl-[30px] sm:rounded-bl-[50px] shadow-md hover:scale-105 transition-all duration-500 hover:rounded-lg hover:shadow-xl" />
+              </a>
+              <a href={GALERI_3} target="_self">
+                <img src={GALERI_3} alt="perpustakaan desa jayasampurna" className="w-full h-full object-fill rounded-br-[30px] sm:rounded-br-[50px] shadow-md hover:scale-105 transition-all duration-500 hover:rounded-lg hover:shadow-xl" />
+              </a>
             </SimpleGrid>
           </div>
         </section>
