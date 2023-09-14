@@ -17,11 +17,13 @@ import GALERI_1 from './assets/1.jpg';
 import GALERI_2 from './assets/2.jpg';
 import GALERI_3 from './assets/3.jpg';
 import GALERI_4 from './assets/4.jpg';
+import PdfReader from './components/PdfReader';
 
 const App: React.FC = () => {
   const [scroll, scrollTo] = useWindowScroll();
   const [, { toggle }] = useDisclosure(false);
   const visiMisiRef = React.useRef<HTMLDivElement | null>(null);
+  const profilDesaRef = React.useRef<HTMLDivElement | null>(null);
   const galeriRef = React.useRef<HTMLDivElement | null>(null);
   const bukuFiksiRef = React.useRef<HTMLDivElement | null>(null);
   const bukuNonFiksiRef = React.useRef<HTMLDivElement | null>(null);
@@ -42,6 +44,12 @@ const App: React.FC = () => {
   const scrollToVisiMisi = () => {
     if (visiMisiRef.current) {
       const scrollY = visiMisiRef.current.getBoundingClientRect().top + window.scrollY - 50;
+      scrollTo({ y: scrollY });
+    }
+  };
+  const scrollToProfilDesa = () => {
+    if (profilDesaRef.current) {
+      const scrollY = profilDesaRef.current.getBoundingClientRect().top + window.scrollY - 50;
       scrollTo({ y: scrollY });
     }
   };
@@ -75,11 +83,15 @@ const App: React.FC = () => {
       <nav className="py-5 px-5 sm:px-10 border-b fixed top-0 right-0 left-0 bg-white/70 backdrop-blur-md z-50">
         <Container className="flex justify-between items-center">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => location.reload()}>
-            <img src={LOGO} alt="Logo Kabupaten Bekasi" width={40} />
-            <h1 className="font-semibold text-lg">Perpustakaan Digital</h1>
+            <img src={LOGO} alt="Logo Kabupaten Bekasi" width={45} />
+            <div>
+              <h1 className="font-semibold text-md sm:text-lg">Desa Jayasampurna</h1>
+              <h1 className="font-medium text-xs sm:text-sm italic">Perpustakaan Digital</h1>
+            </div>
           </div>
           <div className="sm:flex gap-10 text-[14px] [&>p]:cursor-pointer hidden">
             <p onClick={scrollToHome}>Home</p>
+            <p onClick={scrollToProfilDesa}>Profil Desa</p>
             <p onClick={scrollToVisiMisi}>Visi & Misi</p>
             <p onClick={scrollToGaleri}>Galeri</p>
             <div>
@@ -98,7 +110,15 @@ const App: React.FC = () => {
             </div>
             <p onClick={scrollToLokasi}>Lokasi</p>
           </div>
-          <HamburgerMenu scrollToHome={scrollToHome} scrollToGaleri={scrollToGaleri} scrollToVisiMisi={scrollToVisiMisi} scrollToBukuFiksi={scrollToBukuFiksi} scrollToBukuNonFiksi={scrollToBukuNonFiksi} scrollToLokasi={scrollToLokasi} />
+          <HamburgerMenu
+            scrollToHome={scrollToHome}
+            scrollToProfilDesa={scrollToProfilDesa}
+            scrollToGaleri={scrollToGaleri}
+            scrollToVisiMisi={scrollToVisiMisi}
+            scrollToBukuFiksi={scrollToBukuFiksi}
+            scrollToBukuNonFiksi={scrollToBukuNonFiksi}
+            scrollToLokasi={scrollToLokasi}
+          />
         </Container>
       </nav>
       <Container className="flex flex-col pt-10 mt-3 sm:mt-0">
@@ -135,6 +155,14 @@ const App: React.FC = () => {
                 <li>Meningkatkan potensi pertanian, perkebunan, dan home industry sebagai sumber pendapatan masyarakat</li>
               </ul>
             </div>
+          </div>
+        </section>
+        <section className="py-3 sm:py-12 px-6 sm:px-10 flex flex-col gap-5 mb-16" ref={profilDesaRef}>
+          <div className="flex flex-col justify-start border-b-4 pb-2 w-max border-gray-200 " data-aos="fade-up">
+            <h1 className="text-lg font-bold md:text-xl lg:text-3xl text-center md:text-left ">Buku Profil Desa Jayasampurna</h1>
+          </div>
+          <div data-aos="fade-up">
+            <PdfReader fileUrl="./assets/buku-profil-desa.pdf" />
           </div>
         </section>
         <section className="py-12 px-6 sm:px-10 flex flex-col gap-3 mb-16" ref={galeriRef}>

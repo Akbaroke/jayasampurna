@@ -4,13 +4,14 @@ import { Burger, Menu } from '@mantine/core';
 interface Props {
   scrollToHome: () => void;
   scrollToVisiMisi: () => void;
+  scrollToProfilDesa: () => void;
   scrollToGaleri: () => void;
   scrollToBukuFiksi: () => void;
   scrollToBukuNonFiksi: () => void;
   scrollToLokasi: () => void;
 }
 
-function HamburgerMenu({ scrollToHome, scrollToGaleri, scrollToVisiMisi, scrollToBukuFiksi, scrollToBukuNonFiksi, scrollToLokasi }: Props) {
+function HamburgerMenu({ scrollToHome, scrollToGaleri, scrollToVisiMisi, scrollToProfilDesa, scrollToBukuFiksi, scrollToBukuNonFiksi, scrollToLokasi }: Props) {
   const [opened, { toggle }] = useDisclosure(false);
   const ref = useClickOutside(() => {
     opened && toggle();
@@ -26,6 +27,7 @@ function HamburgerMenu({ scrollToHome, scrollToGaleri, scrollToVisiMisi, scrollT
         <Menu.Dropdown onClick={toggle}>
           <Menu.Item onClick={scrollToHome}>Home</Menu.Item>
           <Menu.Item onClick={scrollToVisiMisi}>Visi & Misi</Menu.Item>
+          <Menu.Item onClick={scrollToProfilDesa}>Profil Desa</Menu.Item>
           <Menu.Item onClick={scrollToGaleri}>Galeri</Menu.Item>
 
           <Menu.Divider />
