@@ -1,17 +1,17 @@
-import * as React from 'react';
-import { Viewer, Worker } from '@react-pdf-viewer/core';
-import { toolbarPlugin, ToolbarSlot } from '@react-pdf-viewer/toolbar';
+import * as React from 'react'
+import { Viewer, Worker } from '@react-pdf-viewer/core'
+import { toolbarPlugin, ToolbarSlot } from '@react-pdf-viewer/toolbar'
 
-import '@react-pdf-viewer/core/lib/styles/index.css';
-import '@react-pdf-viewer/toolbar/lib/styles/index.css';
+import '@react-pdf-viewer/core/lib/styles/index.css'
+import '@react-pdf-viewer/toolbar/lib/styles/index.css'
 
 interface PdfReaderProps {
-  fileUrl: string;
+  fileUrl: string
 }
 
 const PdfReader: React.FC<PdfReaderProps> = ({ fileUrl }) => {
-  const toolbarPluginInstance = toolbarPlugin();
-  const { Toolbar } = toolbarPluginInstance;
+  const toolbarPluginInstance = toolbarPlugin()
+  const { Toolbar } = toolbarPluginInstance
 
   return (
     <div
@@ -19,9 +19,10 @@ const PdfReader: React.FC<PdfReaderProps> = ({ fileUrl }) => {
       style={{
         border: '1px solid rgba(0, 0, 0, 0.3)',
         display: 'flex',
-        flexDirection: 'column',
+        flexDirection: 'column'
         // height: height,
-      }}>
+      }}
+    >
       <div
         style={{
           alignItems: 'center',
@@ -29,8 +30,9 @@ const PdfReader: React.FC<PdfReaderProps> = ({ fileUrl }) => {
           borderBottom: '1px solid rgba(0, 0, 0, 0.1)',
           display: 'flex',
           justifyContent: 'space-between',
-          padding: '4px',
-        }}>
+          padding: '4px'
+        }}
+      >
         <Toolbar>
           {(props: ToolbarSlot) => {
             const {
@@ -43,20 +45,20 @@ const PdfReader: React.FC<PdfReaderProps> = ({ fileUrl }) => {
               Print,
               Zoom,
               ZoomIn,
-              ZoomOut,
-            } = props;
+              ZoomOut
+            } = props
             return (
               <>
-                <div style={{ padding: '0px 2px' }} className="hidden sm:block">
+                <div style={{ padding: '0px 2px' }} className='hidden sm:block'>
                   <ZoomOut />
                 </div>
-                <div style={{ padding: '0px 2px' }} className="hidden sm:block">
+                <div style={{ padding: '0px 2px' }} className='hidden sm:block'>
                   <Zoom />
                 </div>
-                <div style={{ padding: '0px 2px' }} className="hidden sm:block">
+                <div style={{ padding: '0px 2px' }} className='hidden sm:block'>
                   <ZoomIn />
                 </div>
-                <div className="flex sm:hidden">
+                <div className='flex sm:hidden'>
                   <div style={{ padding: '0px 2px' }}>
                     <ZoomOut />
                   </div>
@@ -69,24 +71,27 @@ const PdfReader: React.FC<PdfReaderProps> = ({ fileUrl }) => {
                 </div>
                 <div
                   style={{ padding: '0px 2px', marginLeft: 'auto' }}
-                  className="hidden sm:block">
+                  className='hidden sm:block'
+                >
                   <GoToPreviousPage />
                 </div>
                 <div
                   style={{ padding: '0px 2px', width: '4rem' }}
-                  className="hidden sm:block">
+                  className='hidden sm:block'
+                >
                   <CurrentPageInput />
                 </div>
-                <div style={{ padding: '0px 2px' }} className="hidden sm:block">
+                <div style={{ padding: '0px 2px' }} className='hidden sm:block'>
                   / <NumberOfPages />
                 </div>
-                <div style={{ padding: '0px 2px' }} className="hidden sm:block">
+                <div style={{ padding: '0px 2px' }} className='hidden sm:block'>
                   <GoToNextPage />
                 </div>
-                <div className="flex items-center gap-1 sm:hidden">
+                <div className='flex items-center gap-1 sm:hidden'>
                   <div
                     style={{ padding: '0px 2px', marginLeft: 'auto' }}
-                    className="hidden sm:block">
+                    className='hidden sm:block'
+                  >
                     <GoToPreviousPage />
                   </div>
                   <div style={{ padding: '0px 2px', width: '4rem' }}>
@@ -97,39 +102,46 @@ const PdfReader: React.FC<PdfReaderProps> = ({ fileUrl }) => {
                   </div>
                   <div
                     style={{ padding: '0px 2px' }}
-                    className="hidden sm:block">
+                    className='hidden sm:block'
+                  >
                     <GoToNextPage />
                   </div>
                 </div>
                 <div
                   style={{ padding: '0px 2px', marginLeft: 'auto' }}
-                  className="hidden sm:block">
+                  className='hidden sm:block'
+                >
                   <EnterFullScreen />
                 </div>
                 <div style={{ padding: '0px 2px' }}>
                   <Download />
                 </div>
-                <div style={{ padding: '0px 2px' }} className="hidden sm:block">
+                <div style={{ padding: '0px 2px' }} className='hidden sm:block'>
                   <Print />
                 </div>
               </>
-            );
+            )
           }}
         </Toolbar>
       </div>
       <div
         style={{
           flex: 1,
-          overflow: 'hidden',
-        }}>
+          overflow: 'hidden'
+        }}
+      >
+        ; ;
         <Worker
-          workerUrl={`https://unpkg.com/pdfjs-dist/build/pdf.worker.min.js`}>
-          {' '}
+          workerUrl={new URL(
+            'pdfjs-dist/build/pdf.worker.min.js',
+            import.meta.url
+          ).toString()}
+        >
           <Viewer fileUrl={fileUrl} plugins={[toolbarPluginInstance]} />
         </Worker>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default PdfReader;
+export default PdfReader
